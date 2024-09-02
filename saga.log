@@ -1,0 +1,1788 @@
+2023-08-10 22:47:42.214  DEBUG    logger configured
+2023-08-10 22:47:42.214  INFO     log begins
+2023-08-10 22:49:41.551  WARNING  Return stack mutation detected!
+2023-08-10 22:49:55.985  INFO     Loading stored machine state...
+2023-08-10 22:49:58.256  INFO     (FROM LOAD) Action unlocklocation executed on debbie with target <store.Location 'Town Map'>
+2023-08-10 22:49:58.257  INFO     (FROM LOAD) Action unlocklocation executed on debbie with target <store.Location 'Erik's House'>
+2023-08-10 22:49:58.257  INFO     (FROM LOAD) Action unlocklocation executed on erik with target <store.Location 'School Frontyard'>
+2023-08-10 22:49:58.258  INFO     (FROM LOAD) Action assign executed on mia with target [u'homework', 1]
+2023-08-10 22:49:58.258  INFO     (FROM LOAD) Action unlocklocation executed on mia with target <store.Location 'Mia's House'>
+2023-08-10 22:49:58.259  INFO     (FROM LOAD) Action location executed on mia with target {u'place': <store.Location 'Mia's House'>}
+2023-08-10 22:49:58.259  INFO     (FROM LOAD) Action force executed on mia with target {u'tod': 1}
+2023-08-10 22:49:58.260  INFO     (FROM LOAD) Action unlocklocation executed on smith with target <store.Location 'Basketball Court'>
+2023-08-10 22:49:58.260  INFO     (FROM LOAD) Action location executed on smith with target [u'annie', {u'place': <store.Location 'Principal Smith's Office'>}]
+2023-08-10 22:49:58.261  INFO     (FROM LOAD) Action force executed on smith with target [u'annie', {u'flag': True}]
+2023-08-10 22:49:58.262  INFO     (FROM LOAD) Action unforce executed on smith with target u'annie'
+2023-08-10 22:49:58.263  INFO     (FROM LOAD) Action set executed on smith with target u'school intro done'
+2023-08-10 22:49:58.263  INFO     (FROM LOAD) Action exec executed on smith with target u'game.unlock_sleep()'
+2023-08-10 22:49:58.265  INFO     (FROM LOAD) Action location executed on bridget with target [u'judith', {u'place': <store.Location 'NULL'>}]
+2023-08-10 22:49:58.265  INFO     (FROM LOAD) Action force executed on bridget with target [u'judith', {u'tod': [0, 1]}]
+2023-08-10 22:49:58.266  INFO     (FROM LOAD) Action exec executed on bissette with target u'game.unlock_ui()'
+2023-08-10 22:49:58.267  INFO     (FROM LOAD) Action unlocklocation executed on bridget with target <store.Location 'Gym Front'>
+2023-08-10 22:49:58.268  INFO     (FROM LOAD) Action unlocklocation executed on bridget with target <store.Location 'Pool'>
+2023-08-10 22:49:58.268  INFO     (FROM LOAD) Action unforce executed on bridget with target u'judith'
+2023-08-10 22:49:58.269  INFO     (FROM LOAD) Action unlocklocation executed on bissette with target <store.Location 'Library Front'>
+2023-08-10 22:49:58.269  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Park'>}
+2023-08-10 22:49:58.270  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 22:49:58.271  INFO     (FROM LOAD) Action priority executed on diane with target 1
+2023-08-10 22:49:58.271  INFO     (FROM LOAD) Action location executed on erik with target {u'place': <store.Location 'Erik's Basement'>}
+2023-08-10 22:49:58.271  INFO     (FROM LOAD) Action force executed on erik with target {u'tod': [1, 2]}
+2023-08-10 22:49:58.272  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Kitchen'>}
+2023-08-10 22:49:58.273  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 22:49:58.273  INFO     (FROM LOAD) Action set executed on debbie with target u'money question'
+2023-08-10 22:49:58.274  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.275  INFO     (FROM LOAD) Action priority executed on anon with target 2
+2023-08-10 22:49:58.275  INFO     (FROM LOAD) Action location executed on roxxy with target {u'place': <store.Location 'School Third Floor'>, u'tod': [0, 1]}
+2023-08-10 22:49:58.277  INFO     (FROM LOAD) Action force executed on roxxy with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.278  INFO     (FROM LOAD) Action set executed on judith with target u'in bathroom'
+2023-08-10 22:49:58.279  INFO     (FROM LOAD) Action location executed on judith with target {u'place': <store.Location 'Bathroom Stall'>}
+2023-08-10 22:49:58.279  INFO     (FROM LOAD) Action force executed on judith with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.280  INFO     (FROM LOAD) Action unlocklocation executed on judith with target <store.Location 'School Girl's Lockerroom'>
+2023-08-10 22:49:58.280  INFO     (FROM LOAD) Action set executed on judith with target u'can go in bathroom'
+2023-08-10 22:49:58.280  INFO     (FROM LOAD) Action unforce executed on judith with target None
+2023-08-10 22:49:58.281  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 22:49:58.282  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 22:49:58.282  INFO     (FROM LOAD) Action exec executed on anon with target u'game.lock_sleep()'
+2023-08-10 22:49:58.283  INFO     (FROM LOAD) Action exec executed on anon with target u'game.unlock_sleep()'
+2023-08-10 22:49:58.284  INFO     (FROM LOAD) Action set executed on anon with target (debbie@S_debbie_fill_mower at kitchen. (8%), u'dad question')
+2023-08-10 22:49:58.284  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 22:49:58.285  INFO     (FROM LOAD) Action unforce executed on roxxy with target None
+2023-08-10 22:49:58.286  INFO     (FROM LOAD) Action exec executed on roxxy with target <bound method Location.unlock of <store.Location 'School Girl's Lockerroom'>>
+2023-08-10 22:49:58.286  INFO     (FROM LOAD) Action location executed on roxxy with target {u'place': <store.Location 'School Girl's Lockerroom'>, u'tod': [0, 1]}
+2023-08-10 22:49:58.287  INFO     (FROM LOAD) Action force executed on roxxy with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.288  INFO     (FROM LOAD) Action clear executed on roxxy with target u'left hallway lock'
+2023-08-10 22:49:58.288  INFO     (FROM LOAD) Action unforce executed on roxxy with target None
+2023-08-10 22:49:58.289  INFO     (FROM LOAD) Action exec executed on anon with target u'game.lock_sleep()'
+2023-08-10 22:49:58.289  INFO     (FROM LOAD) Action exec executed on anon with target u'game.unlock_sleep()'
+2023-08-10 22:49:58.290  INFO     (FROM LOAD) Action setdefaultloc executed on mrsj with target [[<store.Location 'Erik's House Entrance'>, <store.Location 'Yoga Room'>, <store.Location 'Mrs Johnson's Room'>, <store.Location 'Mrs Johnson's Room'>]]
+2023-08-10 22:49:58.291  INFO     (FROM LOAD) Action location executed on mrsj with target {u'place': <store.Location 'NULL'>}
+2023-08-10 22:49:58.291  INFO     (FROM LOAD) Action force executed on mrsj with target {u'tod': 0}
+2023-08-10 22:49:58.292  INFO     (FROM LOAD) Action set executed on anon with target (debbie@S_debbie_fill_mower at kitchen. (8%), u'bad guys question')
+2023-08-10 22:49:58.292  INFO     (FROM LOAD) Action unforce executed on mrsj with target None
+2023-08-10 22:49:58.293  INFO     (FROM LOAD) Action location executed on erik with target {u'place': <store.Location 'Erik's Room'>}
+2023-08-10 22:49:58.294  INFO     (FROM LOAD) Action condition executed on erik with target (u'player.has_item("card02")', (u'trigger', T_erik_card_acquired), ())
+2023-08-10 22:49:58.295  INFO     (FROM LOAD) Action condition executed on kevin with target (u'player.has_item("game")', (u'trigger', T_kevin_bought_seadogs), ())
+2023-08-10 22:49:58.297  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Cafeteria'>}
+2023-08-10 22:49:58.297  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.298  INFO     (FROM LOAD) Action setdefaultloc executed on eve with target (u'park_douches', [[<store.Location 'NULL'>, <store.Location 'NULL'>, <store.Location 'Park'>, <store.Location 'NULL'>]])
+2023-08-10 22:49:58.298  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 22:49:58.300  INFO     (FROM LOAD) Action location executed on roxxy with target {u'place': <store.Location 'Boy's Locker Shower'>, u'tod': [0, 1]}
+2023-08-10 22:49:58.301  INFO     (FROM LOAD) Action force executed on roxxy with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.302  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 3)
+2023-08-10 22:49:58.302  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 22:49:58.303  INFO     (FROM LOAD) Action setdefaultloc executed on anna with target [[<store.Location 'NULL'>, <store.Location 'NULL'>, <store.Location 'Yoga Room'>, <store.Location 'NULL'>]]
+2023-08-10 22:49:58.303  INFO     (FROM LOAD) Action priority executed on anna with target 1
+2023-08-10 22:49:58.303  INFO     (FROM LOAD) Action location executed on anna with target {u'place': <store.Location 'Park'>}
+2023-08-10 22:49:58.304  INFO     (FROM LOAD) Action force executed on anna with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.304  INFO     (FROM LOAD) Action unlocklocation executed on anna with target <store.Location 'Forest'>
+2023-08-10 22:49:58.305  INFO     (FROM LOAD) Action priority executed on anna with target 0
+2023-08-10 22:49:58.305  INFO     (FROM LOAD) Action unforce executed on anna with target None
+2023-08-10 22:49:58.305  INFO     (FROM LOAD) Action exec executed on diane with target u'setattr(S_dia02_redo, "delay", 1)'
+2023-08-10 22:49:58.307  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 22:49:58.309  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 22:49:58.310  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 22:49:58.311  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 22:49:58.311  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 22:49:58.312  INFO     (FROM LOAD) Action location executed on erik with target {u'place': <store.Location 'Erik's Basement'>}
+2023-08-10 22:49:58.312  INFO     (FROM LOAD) Action force executed on erik with target {u'tod': [1, 2]}
+2023-08-10 22:49:58.313  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.314  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.315  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.316  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Basement'>}
+2023-08-10 22:49:58.316  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 22:49:58.317  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.318  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 6)
+2023-08-10 22:49:58.318  INFO     (FROM LOAD) Action condition executed on debbie with target (u'M_anon.finished_state(S_ano02_thug)', (u'trigger', T_deb03_init), ())
+2023-08-10 22:49:58.320  INFO     (FROM LOAD) Action trigger executed on debbie with target T_deb03_init
+2023-08-10 22:49:58.320  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.321  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Home Front'>}
+2023-08-10 22:49:58.322  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 22:49:58.322  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.323  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.323  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.324  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.324  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.325  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 7)
+2023-08-10 22:49:58.325  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.326  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.327  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 3)
+2023-08-10 22:49:58.327  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 3')
+2023-08-10 22:49:58.327  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 22:49:58.328  INFO     (FROM LOAD) Action trigger executed on diane with target T_dia02_done
+2023-08-10 22:49:58.328  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'Shower'>}
+2023-08-10 22:49:58.329  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': 0}
+2023-08-10 22:49:58.330  INFO     (FROM LOAD) Action unlocklocation executed on jenny with target <store.Location 'Upstairs Bedroom'>
+2023-08-10 22:49:58.330  INFO     (FROM LOAD) Action setinshower executed on jenny with target u'jenny'
+2023-08-10 22:49:58.331  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 22:49:58.331  INFO     (FROM LOAD) Action set executed on jenny with target (u'player', u'jerk jenny')
+2023-08-10 22:49:58.332  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 8)
+2023-08-10 22:49:58.332  INFO     (FROM LOAD) Action exec executed on dewitt with target u'player.increase_grade_music()'
+2023-08-10 22:49:58.333  INFO     (FROM LOAD) Action location executed on diane with target (u'tony', {u'place': <store.Location 'Pizzeria Interior'>})
+2023-08-10 22:49:58.334  INFO     (FROM LOAD) Action force executed on diane with target (u'tony', {u'flag': True})
+2023-08-10 22:49:58.334  INFO     (FROM LOAD) Action location executed on diane with target (u'maria', {u'place': <store.Location 'Pizzeria Kitchen'>})
+2023-08-10 22:49:58.335  INFO     (FROM LOAD) Action force executed on diane with target (u'maria', {u'flag': True})
+2023-08-10 22:49:58.336  INFO     (FROM LOAD) Action unforce executed on diane with target u'tony'
+2023-08-10 22:49:58.336  INFO     (FROM LOAD) Action unforce executed on diane with target u'maria'
+2023-08-10 22:49:58.337  INFO     (FROM LOAD) Action location executed on debbie with target [u'jenny', {u'place': <store.Location 'NULL'>}]
+2023-08-10 22:49:58.337  INFO     (FROM LOAD) Action force executed on debbie with target [u'jenny', {u'flag': True}]
+2023-08-10 22:49:58.338  INFO     (FROM LOAD) Action force executed on debbie with target [u'jenny', {u'tod': [0, 1]}]
+2023-08-10 22:49:58.339  INFO     (FROM LOAD) Action unforce executed on debbie with target u'jenny'
+2023-08-10 22:49:58.340  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'Dining Room'>}
+2023-08-10 22:49:58.340  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': 0}
+2023-08-10 22:49:58.341  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Bedroom'>}
+2023-08-10 22:49:58.341  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.341  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Diane's Kitchen'>
+2023-08-10 22:49:58.342  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Diane's Lobby'>
+2023-08-10 22:49:58.342  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Shed'>}
+2023-08-10 22:49:58.343  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.343  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 22:49:58.344  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'Upstairs Bedroom'>}
+2023-08-10 22:49:58.344  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': [0, 1, 2, 3]}
+2023-08-10 22:49:58.345  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 22:49:58.345  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 9)
+2023-08-10 22:49:58.346  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 11)
+2023-08-10 22:49:58.346  INFO     (FROM LOAD) Action assign executed on jenny with target (u'jenXX_lite_ivy', u'game.timer.now')
+2023-08-10 22:49:58.347  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 12)
+2023-08-10 22:49:58.348  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 22:49:58.348  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Entrance'>}
+2023-08-10 22:49:58.349  INFO     (FROM LOAD) Action force executed on debbie with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.349  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.350  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 22:49:58.351  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 13)
+2023-08-10 22:49:58.351  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 22:49:58.352  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'NULL'>}
+2023-08-10 22:49:58.352  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.353  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 22:49:58.354  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Kitchen'>}
+2023-08-10 22:49:58.355  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.355  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 22:49:58.356  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': [2]}
+2023-08-10 22:49:58.356  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'NULL'>}
+2023-08-10 22:49:58.357  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 22:49:58.357  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Basement'>}
+2023-08-10 22:49:58.358  INFO     (FROM LOAD) Action force executed on debbie with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.358  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 22:49:58.359  INFO     (FROM LOAD) Action clear executed on debbie with target u'bedroom locked'
+2023-08-10 22:49:58.359  INFO     (FROM LOAD) Action set executed on debbie with target u'fetch lotion'
+2023-08-10 22:49:58.360  INFO     (FROM LOAD) Action clear executed on debbie with target u'fetch lotion'
+2023-08-10 22:49:58.360  INFO     (FROM LOAD) Action clear executed on debbie with target u'retrieved lotion'
+2023-08-10 22:49:58.361  INFO     (FROM LOAD) Action set executed on debbie with target u'panties available'
+2023-08-10 22:49:58.361  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.361  INFO     (FROM LOAD) Action clear executed on debbie with target u'bed locked'
+2023-08-10 22:49:58.362  INFO     (FROM LOAD) Action clear executed on debbie with target u'panties available'
+2023-08-10 22:49:58.362  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Entrance'>}
+2023-08-10 22:49:58.363  INFO     (FROM LOAD) Action force executed on debbie with target {u'tod': 2}
+2023-08-10 22:49:58.364  INFO     (FROM LOAD) Action action executed on diane with target [u'player', u'set', u'jerk diane']
+2023-08-10 22:49:58.364  INFO     (FROM LOAD) Action set executed on player with target u'jerk diane'
+2023-08-10 22:49:58.365  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 22:49:58.366  INFO     (FROM LOAD) Action setdefaultloc executed on diane with target [[<store.Location 'Diane's Shed'>, <store.Location 'Diane's Shed'>, <store.Location 'Diane's Shed'>, <store.Location 'Diane's Bedroom'>]]
+2023-08-10 22:49:58.366  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Annie's House Front'>
+2023-08-10 22:49:58.366  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Diane's Shed'>
+2023-08-10 22:49:58.367  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Bedroom'>}
+2023-08-10 22:49:58.368  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.368  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Bedroom'>}
+2023-08-10 22:49:58.369  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1, 2, 3]}
+2023-08-10 22:49:58.369  INFO     (FROM LOAD) Action setdefaultloc executed on diane with target (u'richard', [[<store.Location 'Annie's House Front'>, <store.Location 'Annie's House Front'>, <store.Location 'Annie's House Livingroom'>, <store.Location 'NULL'>]])
+2023-08-10 22:49:58.370  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 22:49:58.371  INFO     (FROM LOAD) Action setdefaultoutfit executed on diane with target [[u'shirtless', u'shirtless', u'shirtless', u'shirtless']]
+2023-08-10 22:49:58.371  INFO     (FROM LOAD) Action clear executed on debbie with target u'panties available'
+2023-08-10 22:49:58.372  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Living Room'>}
+2023-08-10 22:49:58.372  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 22:49:58.373  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.374  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Cupid'>}
+2023-08-10 22:49:58.375  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 22:49:58.375  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Cupid Dressingroom'>}
+2023-08-10 22:49:58.376  INFO     (FROM LOAD) Action set executed on debbie with target u'jerk available'
+2023-08-10 22:49:58.376  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.377  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Master Bedroom'>}
+2023-08-10 22:49:58.377  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 22:49:58.378  INFO     (FROM LOAD) Action set executed on debbie with target u'caught spying'
+2023-08-10 22:49:58.378  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 22:49:58.379  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Garden'>}
+2023-08-10 22:49:58.379  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.380  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 22:49:58.381  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask erik'
+2023-08-10 22:49:58.382  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask eve'
+2023-08-10 22:49:58.382  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask dexter'
+2023-08-10 22:49:58.383  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask judith'
+2023-08-10 22:49:58.383  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask kevin'
+2023-08-10 22:49:58.383  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask mia'
+2023-08-10 22:49:58.384  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask ronda'
+2023-08-10 22:49:58.384  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask roxxy'
+2023-08-10 22:49:58.385  INFO     (FROM LOAD) Action exec executed on okita with target u'player.increase_grade_science()'
+2023-08-10 22:49:58.386  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 22:49:58.387  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 22:49:58.387  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.388  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.389  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.389  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.389  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.390  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.390  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.390  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.391  INFO     (FROM LOAD) Action clear executed on bissette with target u'judith return dictionary'
+2023-08-10 22:49:58.391  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.392  INFO     (FROM LOAD) Action location executed on okita with target [u'judith', {u'place': <store.Location 'Park'>}]
+2023-08-10 22:49:58.392  INFO     (FROM LOAD) Action force executed on okita with target [u'judith', {u'tod': 1}]
+2023-08-10 22:49:58.393  INFO     (FROM LOAD) Action unforce executed on okita with target u'judith'
+2023-08-10 22:49:58.393  INFO     (FROM LOAD) Action triggeronzero executed on mia with target [u'homework', T_mia_on_zero]
+2023-08-10 22:49:58.394  INFO     (FROM LOAD) Action clear executed on mia with target u'front door locked'
+2023-08-10 22:49:58.394  INFO     (FROM LOAD) Action inc executed on mia with target u'progress count'
+2023-08-10 22:49:58.394  INFO     (FROM LOAD) Action unforce executed on mia with target None
+2023-08-10 22:49:58.395  INFO     (FROM LOAD) Action exec executed on bissette with target u'player.increase_grade_french()'
+2023-08-10 22:49:58.396  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'School Right Hallway'>}
+2023-08-10 22:49:58.397  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.397  INFO     (FROM LOAD) Action clear executed on bissette with target u'eriks book search'
+2023-08-10 22:49:58.398  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Assembly Hall'>}
+2023-08-10 22:49:58.399  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.399  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.400  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Tattoo Parlor'>
+2023-08-10 22:49:58.400  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Tattoo Parlor Garage'>
+2023-08-10 22:49:58.401  INFO     (FROM LOAD) Action setcantalk executed on eve with target {u'odette': [True, True, True, False]}
+2023-08-10 22:49:58.402  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 22:49:58.403  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.403  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Assembly Hall'>}
+2023-08-10 22:49:58.404  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.405  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.405  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 7', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.407  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.407  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 7', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.407  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.408  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 7', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.408  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.409  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Apartment'>}]
+2023-08-10 22:49:58.409  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'flag': True}]
+2023-08-10 22:49:58.410  INFO     (FROM LOAD) Action set executed on eve with target [u'player', u'jerk eve']
+2023-08-10 22:49:58.410  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 22:49:58.411  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'School Left Hallway'>}
+2023-08-10 22:49:58.412  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.413  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Park'>}
+2023-08-10 22:49:58.413  INFO     (FROM LOAD) Action force executed on eve with target {u'flag': [False, False, True, False]}
+2023-08-10 22:49:58.414  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.414  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 22:49:58.415  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 22:49:58.415  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.416  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Police Parking Lot'>}
+2023-08-10 22:49:58.417  INFO     (FROM LOAD) Action force executed on eve with target {u'flag': True}
+2023-08-10 22:49:58.417  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Police Parking Lot'>
+2023-08-10 22:49:58.418  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 22:49:58.419  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Interior'>}]
+2023-08-10 22:49:58.420  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Interior'>}]
+2023-08-10 22:49:58.420  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'flag': True}]
+2023-08-10 22:49:58.421  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'flag': True}]
+2023-08-10 22:49:58.421  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Kitchen'>, u'condition': u"not M_diane.is_set('first cucumber')"}
+2023-08-10 22:49:58.422  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': 2}
+2023-08-10 22:49:58.424  INFO     (FROM LOAD) Action setdefaultloc executed on eve with target [[<store.Location 'French Classroom'>, <store.Location 'School Right Hallway'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Bedroom'>], [<store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Bedroom'>]]
+2023-08-10 22:49:58.424  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 22:49:58.424  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 22:49:58.425  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.425  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Tattoo Parlor Roof'>
+2023-08-10 22:49:58.426  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Tattoo Parlor Roof'>}
+2023-08-10 22:49:58.426  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 22:49:58.427  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Tattoo Parlor Tent'>}
+2023-08-10 22:49:58.427  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 22:49:58.428  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'School Right Hallway'>}
+2023-08-10 22:49:58.428  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.429  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.429  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Interior'>, u'dow': [5, 6], u'tod': [0, 1, 2]}]
+2023-08-10 22:49:58.430  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [0, 1, 2]}]
+2023-08-10 22:49:58.430  INFO     (FROM LOAD) Action location executed on eve with target {u'place': [[None, None, <store.Location 'NULL'>, None]]}
+2023-08-10 22:49:58.431  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 22:49:58.431  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'NULL'>, u'dow': [5, 6]}]
+2023-08-10 22:49:58.432  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [0, 1, 2]}]
+2023-08-10 22:49:58.433  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 22:49:58.433  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 14)
+2023-08-10 22:49:58.434  INFO     (FROM LOAD) Action condition executed on jenny with target (u'player.has_item("badmonster")', (u'trigger', T_jenny_bought_bad_monster), ())
+2023-08-10 22:49:58.435  INFO     (FROM LOAD) Action location executed on anon with target (u'josie', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 22:49:58.436  INFO     (FROM LOAD) Action location executed on anon with target (u'kim', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 22:49:58.437  INFO     (FROM LOAD) Action location executed on anon with target (u'sato', {u'place': <store.Location 'Dealership Office'>})
+2023-08-10 22:49:58.437  INFO     (FROM LOAD) Action force executed on anon with target (u'josie', {u'flag': True})
+2023-08-10 22:49:58.438  INFO     (FROM LOAD) Action force executed on anon with target (u'kim', {u'flag': True})
+2023-08-10 22:49:58.438  INFO     (FROM LOAD) Action force executed on anon with target (u'sato', {u'flag': True})
+2023-08-10 22:49:58.439  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 22:49:58.439  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 22:49:58.439  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.440  INFO     (FROM LOAD) Action exec executed on eve with target u'game.unlock_ui()'
+2023-08-10 22:49:58.440  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Roof'>}]
+2023-08-10 22:49:58.441  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [2, 3]}]
+2023-08-10 22:49:58.441  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Tattoo Parlor Roof'>}
+2023-08-10 22:49:58.442  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [2, 3]}
+2023-08-10 22:49:58.442  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 22:49:58.443  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.443  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'NULL'>}]
+2023-08-10 22:49:58.444  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 22:49:58.444  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [0, 1]}]
+2023-08-10 22:49:58.445  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 22:49:58.445  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 22:49:58.446  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Garage'>, u'tod': [0, 1]}]
+2023-08-10 22:49:58.447  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [0, 1]}]
+2023-08-10 22:49:58.448  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.449  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 22:49:58.449  INFO     (FROM LOAD) Action cleanlocation executed on eve with target None
+2023-08-10 22:49:58.450  INFO     (FROM LOAD) Action set executed on eve with target u'party_in_progress'
+2023-08-10 22:49:58.450  INFO     (FROM LOAD) Action clear executed on dewitt with target u'talent ask eve'
+2023-08-10 22:49:58.450  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent helping eve'
+2023-08-10 22:49:58.451  INFO     (FROM LOAD) Action clear executed on dewitt with target u'talent helping eve'
+2023-08-10 22:49:58.451  INFO     (FROM LOAD) Action cleanlocation executed on eve with target u'grace'
+2023-08-10 22:49:58.452  INFO     (FROM LOAD) Action cleanlocation executed on eve with target u'odette'
+2023-08-10 22:49:58.452  INFO     (FROM LOAD) Action cleanlocation executed on eve with target u'tuuku'
+2023-08-10 22:49:58.452  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>, u'dow': [5], u'tod': [2, 3]}
+2023-08-10 22:49:58.453  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [2, 3]}
+2023-08-10 22:49:58.454  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Garage'>, u'dow': [5], u'tod': [2, 3]}]
+2023-08-10 22:49:58.454  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [2, 3]}]
+2023-08-10 22:49:58.455  INFO     (FROM LOAD) Action location executed on eve with target [u'jenny', {u'place': <store.Location 'Tattoo Parlor Roof'>, u'dow': [5], u'tod': [2]}]
+2023-08-10 22:49:58.455  INFO     (FROM LOAD) Action force executed on eve with target [u'jenny', {u'tod': [2]}]
+2023-08-10 22:49:58.456  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Roof'>, u'dow': [5], u'tod': [2]}]
+2023-08-10 22:49:58.456  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [2]}]
+2023-08-10 22:49:58.457  INFO     (FROM LOAD) Action unforce executed on eve with target u'jenny'
+2023-08-10 22:49:58.457  INFO     (FROM LOAD) Action location executed on eve with target [u'tuuku', {u'place': <store.Location 'Tattoo Parlor Alleyway'>, u'dow': [5], u'tod': [2]}]
+2023-08-10 22:49:58.458  INFO     (FROM LOAD) Action force executed on eve with target [u'tuuku', {u'tod': [2]}]
+2023-08-10 22:49:58.459  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 22:49:58.459  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 22:49:58.459  INFO     (FROM LOAD) Action unforce executed on eve with target u'tuuku'
+2023-08-10 22:49:58.460  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 22:49:58.460  INFO     (FROM LOAD) Action clear executed on eve with target u'party_in_progress'
+2023-08-10 22:49:58.460  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Garage'>}]
+2023-08-10 22:49:58.461  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [0, 1, 2]}]
+2023-08-10 22:49:58.461  INFO     (FROM LOAD) Action set executed on eve with target u'odette_depressed'
+2023-08-10 22:49:58.462  INFO     (FROM LOAD) Action setdefaultloc executed on eve with target [[<store.Location 'French Classroom'>, <store.Location 'School Right Hallway'>, <store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Bedroom'>], [<store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Bedroom'>]]
+2023-08-10 22:49:58.462  INFO     (FROM LOAD) Action set executed on debbie with target u'practice kissing'
+2023-08-10 22:49:58.463  INFO     (FROM LOAD) Action unforce executed on roxxy with target None
+2023-08-10 22:49:58.464  INFO     (FROM LOAD) Action location executed on anon with target (u'kim', {u'place': <store.Location 'NULL'>})
+2023-08-10 22:49:58.465  INFO     (FROM LOAD) Action unforce executed on anon with target u'kim'
+2023-08-10 22:49:58.466  INFO     (FROM LOAD) Action clear executed on bissette with target u'martinez book search'
+2023-08-10 22:49:58.467  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 9', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.469  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.469  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 9', (u'trigger', T_somrak_hungry), ())
+2023-08-10 22:49:58.470  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 22:49:58.470  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'NULL'>}]
+2023-08-10 22:49:58.471  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 22:49:58.473  INFO     (FROM LOAD) Action location executed on diane with target [u'debbie', {u'place': <store.Location 'Kitchen'>}]
+2023-08-10 22:49:58.474  INFO     (FROM LOAD) Action force executed on diane with target [u'debbie', {u'tod': [0, 1]}]
+2023-08-10 22:49:58.474  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Pier'>
+2023-08-10 22:49:58.475  INFO     (FROM LOAD) Action unforce executed on diane with target u'debbie'
+2023-08-10 22:49:58.476  INFO     (FROM LOAD) Action unforce executed on anon with target u'josie'
+2023-08-10 22:49:58.476  INFO     (FROM LOAD) Action unforce executed on anon with target u'sato'
+2023-08-10 22:49:58.477  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 15)
+2023-08-10 22:49:58.478  INFO     (FROM LOAD) Action assign executed on jenny with target (u'videos', (u'ec', u'uv', u'bm'))
+2023-08-10 22:49:58.478  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 5)
+2023-08-10 22:49:58.478  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 4')
+2023-08-10 22:49:58.479  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 4)
+2023-08-10 22:49:58.480  INFO     (FROM LOAD) Action location executed on anon with target (u'josie', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 22:49:58.480  INFO     (FROM LOAD) Action location executed on anon with target (u'jiang', {u'place': <store.Location 'Dealership Garage'>})
+2023-08-10 22:49:58.481  INFO     (FROM LOAD) Action force executed on anon with target (u'josie', {u'flag': True})
+2023-08-10 22:49:58.481  INFO     (FROM LOAD) Action force executed on anon with target (u'jiang', {u'flag': True})
+2023-08-10 22:49:58.483  INFO     (FROM LOAD) Action unforce executed on anon with target u'josie'
+2023-08-10 22:49:58.483  INFO     (FROM LOAD) Action exec executed on cassie with target <bound method Achievement.unlock of <store.Achievement object at 0xa71b10d0>>
+2023-08-10 22:49:58.484  INFO     (FROM LOAD) Action unforce executed on anon with target u'jiang'
+2023-08-10 22:49:58.485  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 8)
+2023-08-10 22:49:58.485  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 5')
+2023-08-10 22:49:58.486  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 7)
+2023-08-10 22:49:58.487  INFO     (FROM LOAD) Action location executed on anon with target (u'josie', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 22:49:58.487  INFO     (FROM LOAD) Action force executed on anon with target (u'josie', {u'flag': True})
+2023-08-10 22:49:58.488  INFO     (FROM LOAD) Action unforce executed on anon with target u'josie'
+2023-08-10 22:49:58.489  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 10)
+2023-08-10 22:49:58.489  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 4')
+2023-08-10 22:49:58.490  INFO     (FROM LOAD) Action set executed on terry with target (u'sara', u'met')
+2023-08-10 22:49:58.514  INFO     Finished loading stored machine state. Loading took 3310.585 ms
+2023-08-10 22:49:58.528  INFO     Game Unpacked : False // CWD : /data/user/0/com.kompasproductions.summertimesaga/files
+2023-08-10 22:49:58.528  INFO     RETURN STACK INFO
+2023-08-10 22:49:58.528  INFO     [u'bedroom_dialogue', u'game_menu', u'poem', u'cellphone_exit']
+2023-08-10 22:50:11.241  INFO     MoveTo action called with destination town_map
+2023-08-10 22:50:16.661  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 22:50:17.446  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 22:58:24.423  DEBUG    logger configured
+2023-08-10 22:58:24.424  INFO     log begins
+2023-08-10 23:00:18.967  WARNING  Return stack mutation detected!
+2023-08-10 23:00:24.817  INFO     Loading stored machine state...
+2023-08-10 23:00:27.032  INFO     (FROM LOAD) Action unlocklocation executed on debbie with target <store.Location 'Town Map'>
+2023-08-10 23:00:27.033  INFO     (FROM LOAD) Action unlocklocation executed on debbie with target <store.Location 'Erik's House'>
+2023-08-10 23:00:27.034  INFO     (FROM LOAD) Action unlocklocation executed on erik with target <store.Location 'School Frontyard'>
+2023-08-10 23:00:27.034  INFO     (FROM LOAD) Action assign executed on mia with target [u'homework', 1]
+2023-08-10 23:00:27.035  INFO     (FROM LOAD) Action unlocklocation executed on mia with target <store.Location 'Mia's House'>
+2023-08-10 23:00:27.035  INFO     (FROM LOAD) Action location executed on mia with target {u'place': <store.Location 'Mia's House'>}
+2023-08-10 23:00:27.036  INFO     (FROM LOAD) Action force executed on mia with target {u'tod': 1}
+2023-08-10 23:00:27.037  INFO     (FROM LOAD) Action unlocklocation executed on smith with target <store.Location 'Basketball Court'>
+2023-08-10 23:00:27.037  INFO     (FROM LOAD) Action location executed on smith with target [u'annie', {u'place': <store.Location 'Principal Smith's Office'>}]
+2023-08-10 23:00:27.038  INFO     (FROM LOAD) Action force executed on smith with target [u'annie', {u'flag': True}]
+2023-08-10 23:00:27.039  INFO     (FROM LOAD) Action unforce executed on smith with target u'annie'
+2023-08-10 23:00:27.039  INFO     (FROM LOAD) Action set executed on smith with target u'school intro done'
+2023-08-10 23:00:27.040  INFO     (FROM LOAD) Action exec executed on smith with target u'game.unlock_sleep()'
+2023-08-10 23:00:27.041  INFO     (FROM LOAD) Action location executed on bridget with target [u'judith', {u'place': <store.Location 'NULL'>}]
+2023-08-10 23:00:27.042  INFO     (FROM LOAD) Action force executed on bridget with target [u'judith', {u'tod': [0, 1]}]
+2023-08-10 23:00:27.043  INFO     (FROM LOAD) Action exec executed on bissette with target u'game.unlock_ui()'
+2023-08-10 23:00:27.044  INFO     (FROM LOAD) Action unlocklocation executed on bridget with target <store.Location 'Gym Front'>
+2023-08-10 23:00:27.045  INFO     (FROM LOAD) Action unlocklocation executed on bridget with target <store.Location 'Pool'>
+2023-08-10 23:00:27.045  INFO     (FROM LOAD) Action unforce executed on bridget with target u'judith'
+2023-08-10 23:00:27.046  INFO     (FROM LOAD) Action unlocklocation executed on bissette with target <store.Location 'Library Front'>
+2023-08-10 23:00:27.046  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Park'>}
+2023-08-10 23:00:27.047  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 23:00:27.048  INFO     (FROM LOAD) Action priority executed on diane with target 1
+2023-08-10 23:00:27.048  INFO     (FROM LOAD) Action location executed on erik with target {u'place': <store.Location 'Erik's Basement'>}
+2023-08-10 23:00:27.049  INFO     (FROM LOAD) Action force executed on erik with target {u'tod': [1, 2]}
+2023-08-10 23:00:27.049  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Kitchen'>}
+2023-08-10 23:00:27.050  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 23:00:27.051  INFO     (FROM LOAD) Action set executed on debbie with target u'money question'
+2023-08-10 23:00:27.051  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.052  INFO     (FROM LOAD) Action priority executed on anon with target 2
+2023-08-10 23:00:27.053  INFO     (FROM LOAD) Action location executed on roxxy with target {u'place': <store.Location 'School Third Floor'>, u'tod': [0, 1]}
+2023-08-10 23:00:27.054  INFO     (FROM LOAD) Action force executed on roxxy with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.055  INFO     (FROM LOAD) Action set executed on judith with target u'in bathroom'
+2023-08-10 23:00:27.056  INFO     (FROM LOAD) Action location executed on judith with target {u'place': <store.Location 'Bathroom Stall'>}
+2023-08-10 23:00:27.056  INFO     (FROM LOAD) Action force executed on judith with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.057  INFO     (FROM LOAD) Action unlocklocation executed on judith with target <store.Location 'School Girl's Lockerroom'>
+2023-08-10 23:00:27.057  INFO     (FROM LOAD) Action set executed on judith with target u'can go in bathroom'
+2023-08-10 23:00:27.057  INFO     (FROM LOAD) Action unforce executed on judith with target None
+2023-08-10 23:00:27.058  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 23:00:27.058  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 23:00:27.059  INFO     (FROM LOAD) Action exec executed on anon with target u'game.lock_sleep()'
+2023-08-10 23:00:27.060  INFO     (FROM LOAD) Action exec executed on anon with target u'game.unlock_sleep()'
+2023-08-10 23:00:27.061  INFO     (FROM LOAD) Action set executed on anon with target (debbie@S_debbie_fill_mower at kitchen. (8%), u'dad question')
+2023-08-10 23:00:27.061  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 23:00:27.062  INFO     (FROM LOAD) Action unforce executed on roxxy with target None
+2023-08-10 23:00:27.063  INFO     (FROM LOAD) Action exec executed on roxxy with target <bound method Location.unlock of <store.Location 'School Girl's Lockerroom'>>
+2023-08-10 23:00:27.063  INFO     (FROM LOAD) Action location executed on roxxy with target {u'place': <store.Location 'School Girl's Lockerroom'>, u'tod': [0, 1]}
+2023-08-10 23:00:27.065  INFO     (FROM LOAD) Action force executed on roxxy with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.065  INFO     (FROM LOAD) Action clear executed on roxxy with target u'left hallway lock'
+2023-08-10 23:00:27.065  INFO     (FROM LOAD) Action unforce executed on roxxy with target None
+2023-08-10 23:00:27.066  INFO     (FROM LOAD) Action exec executed on anon with target u'game.lock_sleep()'
+2023-08-10 23:00:27.067  INFO     (FROM LOAD) Action exec executed on anon with target u'game.unlock_sleep()'
+2023-08-10 23:00:27.068  INFO     (FROM LOAD) Action setdefaultloc executed on mrsj with target [[<store.Location 'Erik's House Entrance'>, <store.Location 'Yoga Room'>, <store.Location 'Mrs Johnson's Room'>, <store.Location 'Mrs Johnson's Room'>]]
+2023-08-10 23:00:27.068  INFO     (FROM LOAD) Action location executed on mrsj with target {u'place': <store.Location 'NULL'>}
+2023-08-10 23:00:27.069  INFO     (FROM LOAD) Action force executed on mrsj with target {u'tod': 0}
+2023-08-10 23:00:27.069  INFO     (FROM LOAD) Action set executed on anon with target (debbie@S_debbie_fill_mower at kitchen. (8%), u'bad guys question')
+2023-08-10 23:00:27.070  INFO     (FROM LOAD) Action unforce executed on mrsj with target None
+2023-08-10 23:00:27.071  INFO     (FROM LOAD) Action location executed on erik with target {u'place': <store.Location 'Erik's Room'>}
+2023-08-10 23:00:27.071  INFO     (FROM LOAD) Action condition executed on erik with target (u'player.has_item("card02")', (u'trigger', T_erik_card_acquired), ())
+2023-08-10 23:00:27.072  INFO     (FROM LOAD) Action condition executed on kevin with target (u'player.has_item("game")', (u'trigger', T_kevin_bought_seadogs), ())
+2023-08-10 23:00:27.074  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Cafeteria'>}
+2023-08-10 23:00:27.075  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.075  INFO     (FROM LOAD) Action setdefaultloc executed on eve with target (u'park_douches', [[<store.Location 'NULL'>, <store.Location 'NULL'>, <store.Location 'Park'>, <store.Location 'NULL'>]])
+2023-08-10 23:00:27.075  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 23:00:27.077  INFO     (FROM LOAD) Action location executed on roxxy with target {u'place': <store.Location 'Boy's Locker Shower'>, u'tod': [0, 1]}
+2023-08-10 23:00:27.078  INFO     (FROM LOAD) Action force executed on roxxy with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.079  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 3)
+2023-08-10 23:00:27.079  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 23:00:27.080  INFO     (FROM LOAD) Action setdefaultloc executed on anna with target [[<store.Location 'NULL'>, <store.Location 'NULL'>, <store.Location 'Yoga Room'>, <store.Location 'NULL'>]]
+2023-08-10 23:00:27.080  INFO     (FROM LOAD) Action priority executed on anna with target 1
+2023-08-10 23:00:27.080  INFO     (FROM LOAD) Action location executed on anna with target {u'place': <store.Location 'Park'>}
+2023-08-10 23:00:27.081  INFO     (FROM LOAD) Action force executed on anna with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.081  INFO     (FROM LOAD) Action unlocklocation executed on anna with target <store.Location 'Forest'>
+2023-08-10 23:00:27.082  INFO     (FROM LOAD) Action priority executed on anna with target 0
+2023-08-10 23:00:27.082  INFO     (FROM LOAD) Action unforce executed on anna with target None
+2023-08-10 23:00:27.083  INFO     (FROM LOAD) Action exec executed on diane with target u'setattr(S_dia02_redo, "delay", 1)'
+2023-08-10 23:00:27.084  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 23:00:27.085  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 23:00:27.087  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 23:00:27.087  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 23:00:27.087  INFO     (FROM LOAD) Action condition executed on erik with target (u'game.timer._dow == 6', (u'trigger', T_erik_card_tournament), ())
+2023-08-10 23:00:27.088  INFO     (FROM LOAD) Action location executed on erik with target {u'place': <store.Location 'Erik's Basement'>}
+2023-08-10 23:00:27.088  INFO     (FROM LOAD) Action force executed on erik with target {u'tod': [1, 2]}
+2023-08-10 23:00:27.089  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.090  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.091  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.091  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Basement'>}
+2023-08-10 23:00:27.092  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 23:00:27.093  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.094  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 6)
+2023-08-10 23:00:27.094  INFO     (FROM LOAD) Action condition executed on debbie with target (u'M_anon.finished_state(S_ano02_thug)', (u'trigger', T_deb03_init), ())
+2023-08-10 23:00:27.096  INFO     (FROM LOAD) Action trigger executed on debbie with target T_deb03_init
+2023-08-10 23:00:27.096  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.097  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Home Front'>}
+2023-08-10 23:00:27.097  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 23:00:27.098  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.099  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.099  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.100  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.100  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.101  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 7)
+2023-08-10 23:00:27.101  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.102  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.103  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 3)
+2023-08-10 23:00:27.103  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 3')
+2023-08-10 23:00:27.104  INFO     (FROM LOAD) Action condition executed on diane with target (u'M_anon.finished_state(S_ano04_tony)', (u'trigger', T_dia02_done))
+2023-08-10 23:00:27.104  INFO     (FROM LOAD) Action trigger executed on diane with target T_dia02_done
+2023-08-10 23:00:27.105  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'Shower'>}
+2023-08-10 23:00:27.106  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': 0}
+2023-08-10 23:00:27.106  INFO     (FROM LOAD) Action unlocklocation executed on jenny with target <store.Location 'Upstairs Bedroom'>
+2023-08-10 23:00:27.106  INFO     (FROM LOAD) Action setinshower executed on jenny with target u'jenny'
+2023-08-10 23:00:27.107  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 23:00:27.108  INFO     (FROM LOAD) Action set executed on jenny with target (u'player', u'jerk jenny')
+2023-08-10 23:00:27.108  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 8)
+2023-08-10 23:00:27.109  INFO     (FROM LOAD) Action exec executed on dewitt with target u'player.increase_grade_music()'
+2023-08-10 23:00:27.110  INFO     (FROM LOAD) Action location executed on diane with target (u'tony', {u'place': <store.Location 'Pizzeria Interior'>})
+2023-08-10 23:00:27.110  INFO     (FROM LOAD) Action force executed on diane with target (u'tony', {u'flag': True})
+2023-08-10 23:00:27.111  INFO     (FROM LOAD) Action location executed on diane with target (u'maria', {u'place': <store.Location 'Pizzeria Kitchen'>})
+2023-08-10 23:00:27.111  INFO     (FROM LOAD) Action force executed on diane with target (u'maria', {u'flag': True})
+2023-08-10 23:00:27.112  INFO     (FROM LOAD) Action unforce executed on diane with target u'tony'
+2023-08-10 23:00:27.112  INFO     (FROM LOAD) Action unforce executed on diane with target u'maria'
+2023-08-10 23:00:27.113  INFO     (FROM LOAD) Action location executed on debbie with target [u'jenny', {u'place': <store.Location 'NULL'>}]
+2023-08-10 23:00:27.114  INFO     (FROM LOAD) Action force executed on debbie with target [u'jenny', {u'flag': True}]
+2023-08-10 23:00:27.115  INFO     (FROM LOAD) Action force executed on debbie with target [u'jenny', {u'tod': [0, 1]}]
+2023-08-10 23:00:27.115  INFO     (FROM LOAD) Action unforce executed on debbie with target u'jenny'
+2023-08-10 23:00:27.116  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'Dining Room'>}
+2023-08-10 23:00:27.117  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': 0}
+2023-08-10 23:00:27.118  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Bedroom'>}
+2023-08-10 23:00:27.118  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.119  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Diane's Kitchen'>
+2023-08-10 23:00:27.119  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Diane's Lobby'>
+2023-08-10 23:00:27.120  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Shed'>}
+2023-08-10 23:00:27.120  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.121  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 23:00:27.121  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'Upstairs Bedroom'>}
+2023-08-10 23:00:27.122  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': [0, 1, 2, 3]}
+2023-08-10 23:00:27.122  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 23:00:27.123  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 9)
+2023-08-10 23:00:27.123  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 11)
+2023-08-10 23:00:27.124  INFO     (FROM LOAD) Action assign executed on jenny with target (u'jenXX_lite_ivy', u'game.timer.now')
+2023-08-10 23:00:27.124  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 12)
+2023-08-10 23:00:27.125  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 23:00:27.125  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Entrance'>}
+2023-08-10 23:00:27.125  INFO     (FROM LOAD) Action force executed on debbie with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.126  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.126  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 23:00:27.127  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 13)
+2023-08-10 23:00:27.127  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 23:00:27.128  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'NULL'>}
+2023-08-10 23:00:27.128  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.129  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 23:00:27.130  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Kitchen'>}
+2023-08-10 23:00:27.131  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.131  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 23:00:27.132  INFO     (FROM LOAD) Action force executed on jenny with target {u'tod': [2]}
+2023-08-10 23:00:27.132  INFO     (FROM LOAD) Action location executed on jenny with target {u'place': <store.Location 'NULL'>}
+2023-08-10 23:00:27.133  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 23:00:27.133  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Basement'>}
+2023-08-10 23:00:27.134  INFO     (FROM LOAD) Action force executed on debbie with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.135  INFO     (FROM LOAD) Action set executed on debbie with target u'chores'
+2023-08-10 23:00:27.135  INFO     (FROM LOAD) Action clear executed on debbie with target u'bedroom locked'
+2023-08-10 23:00:27.136  INFO     (FROM LOAD) Action set executed on debbie with target u'fetch lotion'
+2023-08-10 23:00:27.136  INFO     (FROM LOAD) Action clear executed on debbie with target u'fetch lotion'
+2023-08-10 23:00:27.136  INFO     (FROM LOAD) Action clear executed on debbie with target u'retrieved lotion'
+2023-08-10 23:00:27.137  INFO     (FROM LOAD) Action set executed on debbie with target u'panties available'
+2023-08-10 23:00:27.137  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.138  INFO     (FROM LOAD) Action clear executed on debbie with target u'bed locked'
+2023-08-10 23:00:27.138  INFO     (FROM LOAD) Action clear executed on debbie with target u'panties available'
+2023-08-10 23:00:27.138  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Entrance'>}
+2023-08-10 23:00:27.139  INFO     (FROM LOAD) Action force executed on debbie with target {u'tod': 2}
+2023-08-10 23:00:27.139  INFO     (FROM LOAD) Action action executed on diane with target [u'player', u'set', u'jerk diane']
+2023-08-10 23:00:27.140  INFO     (FROM LOAD) Action set executed on player with target u'jerk diane'
+2023-08-10 23:00:27.140  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 23:00:27.141  INFO     (FROM LOAD) Action setdefaultloc executed on diane with target [[<store.Location 'Diane's Shed'>, <store.Location 'Diane's Shed'>, <store.Location 'Diane's Shed'>, <store.Location 'Diane's Bedroom'>]]
+2023-08-10 23:00:27.141  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Annie's House Front'>
+2023-08-10 23:00:27.142  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Diane's Shed'>
+2023-08-10 23:00:27.142  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Bedroom'>}
+2023-08-10 23:00:27.143  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.143  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Bedroom'>}
+2023-08-10 23:00:27.144  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1, 2, 3]}
+2023-08-10 23:00:27.145  INFO     (FROM LOAD) Action setdefaultloc executed on diane with target (u'richard', [[<store.Location 'Annie's House Front'>, <store.Location 'Annie's House Front'>, <store.Location 'Annie's House Livingroom'>, <store.Location 'NULL'>]])
+2023-08-10 23:00:27.146  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 23:00:27.146  INFO     (FROM LOAD) Action setdefaultoutfit executed on diane with target [[u'shirtless', u'shirtless', u'shirtless', u'shirtless']]
+2023-08-10 23:00:27.147  INFO     (FROM LOAD) Action clear executed on debbie with target u'panties available'
+2023-08-10 23:00:27.147  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Living Room'>}
+2023-08-10 23:00:27.148  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 23:00:27.149  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.150  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Cupid'>}
+2023-08-10 23:00:27.151  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 23:00:27.152  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Cupid Dressingroom'>}
+2023-08-10 23:00:27.152  INFO     (FROM LOAD) Action set executed on debbie with target u'jerk available'
+2023-08-10 23:00:27.153  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.153  INFO     (FROM LOAD) Action location executed on debbie with target {u'place': <store.Location 'Master Bedroom'>}
+2023-08-10 23:00:27.154  INFO     (FROM LOAD) Action force executed on debbie with target {u'flag': True}
+2023-08-10 23:00:27.154  INFO     (FROM LOAD) Action set executed on debbie with target u'caught spying'
+2023-08-10 23:00:27.155  INFO     (FROM LOAD) Action unforce executed on debbie with target None
+2023-08-10 23:00:27.156  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Diane's Garden'>}
+2023-08-10 23:00:27.156  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.158  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 23:00:27.159  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask erik'
+2023-08-10 23:00:27.159  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask eve'
+2023-08-10 23:00:27.160  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask dexter'
+2023-08-10 23:00:27.160  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask judith'
+2023-08-10 23:00:27.160  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask kevin'
+2023-08-10 23:00:27.160  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask mia'
+2023-08-10 23:00:27.161  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask ronda'
+2023-08-10 23:00:27.161  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent ask roxxy'
+2023-08-10 23:00:27.162  INFO     (FROM LOAD) Action exec executed on okita with target u'player.increase_grade_science()'
+2023-08-10 23:00:27.163  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 23:00:27.163  INFO     (FROM LOAD) Action set executed on bissette with target u'printer fix fail'
+2023-08-10 23:00:27.164  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.165  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.166  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.166  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.166  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.167  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.167  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 4', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.167  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.168  INFO     (FROM LOAD) Action clear executed on bissette with target u'judith return dictionary'
+2023-08-10 23:00:27.169  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.169  INFO     (FROM LOAD) Action location executed on okita with target [u'judith', {u'place': <store.Location 'Park'>}]
+2023-08-10 23:00:27.170  INFO     (FROM LOAD) Action force executed on okita with target [u'judith', {u'tod': 1}]
+2023-08-10 23:00:27.171  INFO     (FROM LOAD) Action unforce executed on okita with target u'judith'
+2023-08-10 23:00:27.171  INFO     (FROM LOAD) Action triggeronzero executed on mia with target [u'homework', T_mia_on_zero]
+2023-08-10 23:00:27.172  INFO     (FROM LOAD) Action clear executed on mia with target u'front door locked'
+2023-08-10 23:00:27.172  INFO     (FROM LOAD) Action inc executed on mia with target u'progress count'
+2023-08-10 23:00:27.172  INFO     (FROM LOAD) Action unforce executed on mia with target None
+2023-08-10 23:00:27.173  INFO     (FROM LOAD) Action exec executed on bissette with target u'player.increase_grade_french()'
+2023-08-10 23:00:27.174  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'School Right Hallway'>}
+2023-08-10 23:00:27.174  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.175  INFO     (FROM LOAD) Action clear executed on bissette with target u'eriks book search'
+2023-08-10 23:00:27.175  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Assembly Hall'>}
+2023-08-10 23:00:27.176  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.176  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.177  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Tattoo Parlor'>
+2023-08-10 23:00:27.177  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Tattoo Parlor Garage'>
+2023-08-10 23:00:27.178  INFO     (FROM LOAD) Action setcantalk executed on eve with target {u'odette': [True, True, True, False]}
+2023-08-10 23:00:27.179  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 23:00:27.179  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.180  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Assembly Hall'>}
+2023-08-10 23:00:27.180  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.181  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.182  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 7', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.183  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.183  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 7', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.184  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.184  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 7', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.184  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.185  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Apartment'>}]
+2023-08-10 23:00:27.186  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'flag': True}]
+2023-08-10 23:00:27.187  INFO     (FROM LOAD) Action set executed on eve with target [u'player', u'jerk eve']
+2023-08-10 23:00:27.188  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 23:00:27.188  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'School Left Hallway'>}
+2023-08-10 23:00:27.189  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.190  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Park'>}
+2023-08-10 23:00:27.190  INFO     (FROM LOAD) Action force executed on eve with target {u'flag': [False, False, True, False]}
+2023-08-10 23:00:27.191  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.192  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 23:00:27.192  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 23:00:27.192  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.193  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Police Parking Lot'>}
+2023-08-10 23:00:27.193  INFO     (FROM LOAD) Action force executed on eve with target {u'flag': True}
+2023-08-10 23:00:27.194  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Police Parking Lot'>
+2023-08-10 23:00:27.194  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 23:00:27.195  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Interior'>}]
+2023-08-10 23:00:27.196  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Interior'>}]
+2023-08-10 23:00:27.197  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'flag': True}]
+2023-08-10 23:00:27.197  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'flag': True}]
+2023-08-10 23:00:27.199  INFO     (FROM LOAD) Action location executed on diane with target {u'place': <store.Location 'Kitchen'>, u'condition': u"not M_diane.is_set('first cucumber')"}
+2023-08-10 23:00:27.199  INFO     (FROM LOAD) Action force executed on diane with target {u'tod': 2}
+2023-08-10 23:00:27.200  INFO     (FROM LOAD) Action setdefaultloc executed on eve with target [[<store.Location 'French Classroom'>, <store.Location 'School Right Hallway'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Bedroom'>], [<store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Bedroom'>]]
+2023-08-10 23:00:27.201  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 23:00:27.201  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 23:00:27.202  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.203  INFO     (FROM LOAD) Action unlocklocation executed on eve with target <store.Location 'Tattoo Parlor Roof'>
+2023-08-10 23:00:27.204  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Tattoo Parlor Roof'>}
+2023-08-10 23:00:27.204  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 23:00:27.205  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Tattoo Parlor Tent'>}
+2023-08-10 23:00:27.205  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 23:00:27.206  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'School Right Hallway'>}
+2023-08-10 23:00:27.206  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.207  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.208  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Interior'>, u'dow': [5, 6], u'tod': [0, 1, 2]}]
+2023-08-10 23:00:27.208  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [0, 1, 2]}]
+2023-08-10 23:00:27.209  INFO     (FROM LOAD) Action location executed on eve with target {u'place': [[None, None, <store.Location 'NULL'>, None]]}
+2023-08-10 23:00:27.209  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': 2}
+2023-08-10 23:00:27.210  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'NULL'>, u'dow': [5, 6]}]
+2023-08-10 23:00:27.210  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [0, 1, 2]}]
+2023-08-10 23:00:27.211  INFO     (FROM LOAD) Action unforce executed on jenny with target None
+2023-08-10 23:00:27.212  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 14)
+2023-08-10 23:00:27.212  INFO     (FROM LOAD) Action condition executed on jenny with target (u'player.has_item("badmonster")', (u'trigger', T_jenny_bought_bad_monster), ())
+2023-08-10 23:00:27.213  INFO     (FROM LOAD) Action location executed on anon with target (u'josie', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:00:27.214  INFO     (FROM LOAD) Action location executed on anon with target (u'kim', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:00:27.214  INFO     (FROM LOAD) Action location executed on anon with target (u'sato', {u'place': <store.Location 'Dealership Office'>})
+2023-08-10 23:00:27.215  INFO     (FROM LOAD) Action force executed on anon with target (u'josie', {u'flag': True})
+2023-08-10 23:00:27.215  INFO     (FROM LOAD) Action force executed on anon with target (u'kim', {u'flag': True})
+2023-08-10 23:00:27.216  INFO     (FROM LOAD) Action force executed on anon with target (u'sato', {u'flag': True})
+2023-08-10 23:00:27.217  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 23:00:27.217  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 23:00:27.218  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.218  INFO     (FROM LOAD) Action exec executed on eve with target u'game.unlock_ui()'
+2023-08-10 23:00:27.219  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Roof'>}]
+2023-08-10 23:00:27.220  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [2, 3]}]
+2023-08-10 23:00:27.220  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'Tattoo Parlor Roof'>}
+2023-08-10 23:00:27.221  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [2, 3]}
+2023-08-10 23:00:27.222  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 23:00:27.222  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.223  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'NULL'>}]
+2023-08-10 23:00:27.223  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>}
+2023-08-10 23:00:27.224  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [0, 1]}]
+2023-08-10 23:00:27.224  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [0, 1]}
+2023-08-10 23:00:27.225  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 23:00:27.225  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Garage'>, u'tod': [0, 1]}]
+2023-08-10 23:00:27.226  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [0, 1]}]
+2023-08-10 23:00:27.227  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.228  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 23:00:27.228  INFO     (FROM LOAD) Action cleanlocation executed on eve with target None
+2023-08-10 23:00:27.228  INFO     (FROM LOAD) Action set executed on eve with target u'party_in_progress'
+2023-08-10 23:00:27.229  INFO     (FROM LOAD) Action clear executed on dewitt with target u'talent ask eve'
+2023-08-10 23:00:27.229  INFO     (FROM LOAD) Action set executed on dewitt with target u'talent helping eve'
+2023-08-10 23:00:27.229  INFO     (FROM LOAD) Action clear executed on dewitt with target u'talent helping eve'
+2023-08-10 23:00:27.230  INFO     (FROM LOAD) Action cleanlocation executed on eve with target u'grace'
+2023-08-10 23:00:27.230  INFO     (FROM LOAD) Action cleanlocation executed on eve with target u'odette'
+2023-08-10 23:00:27.231  INFO     (FROM LOAD) Action cleanlocation executed on eve with target u'tuuku'
+2023-08-10 23:00:27.231  INFO     (FROM LOAD) Action location executed on eve with target {u'place': <store.Location 'NULL'>, u'dow': [5], u'tod': [2, 3]}
+2023-08-10 23:00:27.231  INFO     (FROM LOAD) Action force executed on eve with target {u'tod': [2, 3]}
+2023-08-10 23:00:27.232  INFO     (FROM LOAD) Action location executed on eve with target [u'grace', {u'place': <store.Location 'Tattoo Parlor Garage'>, u'dow': [5], u'tod': [2, 3]}]
+2023-08-10 23:00:27.232  INFO     (FROM LOAD) Action force executed on eve with target [u'grace', {u'tod': [2, 3]}]
+2023-08-10 23:00:27.233  INFO     (FROM LOAD) Action location executed on eve with target [u'jenny', {u'place': <store.Location 'Tattoo Parlor Roof'>, u'dow': [5], u'tod': [2]}]
+2023-08-10 23:00:27.234  INFO     (FROM LOAD) Action force executed on eve with target [u'jenny', {u'tod': [2]}]
+2023-08-10 23:00:27.234  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Roof'>, u'dow': [5], u'tod': [2]}]
+2023-08-10 23:00:27.235  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [2]}]
+2023-08-10 23:00:27.236  INFO     (FROM LOAD) Action unforce executed on eve with target u'jenny'
+2023-08-10 23:00:27.237  INFO     (FROM LOAD) Action location executed on eve with target [u'tuuku', {u'place': <store.Location 'Tattoo Parlor Alleyway'>, u'dow': [5], u'tod': [2]}]
+2023-08-10 23:00:27.237  INFO     (FROM LOAD) Action force executed on eve with target [u'tuuku', {u'tod': [2]}]
+2023-08-10 23:00:27.238  INFO     (FROM LOAD) Action unforce executed on eve with target u'grace'
+2023-08-10 23:00:27.238  INFO     (FROM LOAD) Action unforce executed on eve with target u'odette'
+2023-08-10 23:00:27.239  INFO     (FROM LOAD) Action unforce executed on eve with target u'tuuku'
+2023-08-10 23:00:27.239  INFO     (FROM LOAD) Action unforce executed on eve with target None
+2023-08-10 23:00:27.239  INFO     (FROM LOAD) Action clear executed on eve with target u'party_in_progress'
+2023-08-10 23:00:27.240  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'Tattoo Parlor Garage'>}]
+2023-08-10 23:00:27.240  INFO     (FROM LOAD) Action force executed on eve with target [u'odette', {u'tod': [0, 1, 2]}]
+2023-08-10 23:00:27.241  INFO     (FROM LOAD) Action set executed on eve with target u'odette_depressed'
+2023-08-10 23:00:27.241  INFO     (FROM LOAD) Action setdefaultloc executed on eve with target [[<store.Location 'French Classroom'>, <store.Location 'School Right Hallway'>, <store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Bedroom'>], [<store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Roof'>, <store.Location 'Tattoo Parlor Bedroom'>, <store.Location 'Tattoo Parlor Bedroom'>]]
+2023-08-10 23:00:27.242  INFO     (FROM LOAD) Action set executed on debbie with target u'practice kissing'
+2023-08-10 23:00:27.243  INFO     (FROM LOAD) Action unforce executed on roxxy with target None
+2023-08-10 23:00:27.244  INFO     (FROM LOAD) Action location executed on anon with target (u'kim', {u'place': <store.Location 'NULL'>})
+2023-08-10 23:00:27.244  INFO     (FROM LOAD) Action unforce executed on anon with target u'kim'
+2023-08-10 23:00:27.245  INFO     (FROM LOAD) Action clear executed on bissette with target u'martinez book search'
+2023-08-10 23:00:27.246  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 9', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.247  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.248  INFO     (FROM LOAD) Action condition executed on somrak with target (u'player.stats.dex() >= 9', (u'trigger', T_somrak_hungry), ())
+2023-08-10 23:00:27.249  INFO     (FROM LOAD) Action trigger executed on somrak with target T_somrak_hungry
+2023-08-10 23:00:27.249  INFO     (FROM LOAD) Action location executed on eve with target [u'odette', {u'place': <store.Location 'NULL'>}]
+2023-08-10 23:00:27.251  INFO     (FROM LOAD) Action unforce executed on diane with target None
+2023-08-10 23:00:27.252  INFO     (FROM LOAD) Action location executed on diane with target [u'debbie', {u'place': <store.Location 'Kitchen'>}]
+2023-08-10 23:00:27.253  INFO     (FROM LOAD) Action force executed on diane with target [u'debbie', {u'tod': [0, 1]}]
+2023-08-10 23:00:27.254  INFO     (FROM LOAD) Action unlocklocation executed on diane with target <store.Location 'Pier'>
+2023-08-10 23:00:27.254  INFO     (FROM LOAD) Action unforce executed on diane with target u'debbie'
+2023-08-10 23:00:27.255  INFO     (FROM LOAD) Action unforce executed on anon with target u'josie'
+2023-08-10 23:00:27.256  INFO     (FROM LOAD) Action unforce executed on anon with target u'sato'
+2023-08-10 23:00:27.256  INFO     (FROM LOAD) Action assign executed on jenny with target (u'diary_progress', 15)
+2023-08-10 23:00:27.257  INFO     (FROM LOAD) Action assign executed on jenny with target (u'videos', (u'ec', u'uv', u'bm'))
+2023-08-10 23:00:27.257  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 5)
+2023-08-10 23:00:27.257  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 4')
+2023-08-10 23:00:27.258  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 4)
+2023-08-10 23:00:27.259  INFO     (FROM LOAD) Action location executed on anon with target (u'josie', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:00:27.260  INFO     (FROM LOAD) Action location executed on anon with target (u'jiang', {u'place': <store.Location 'Dealership Garage'>})
+2023-08-10 23:00:27.260  INFO     (FROM LOAD) Action force executed on anon with target (u'josie', {u'flag': True})
+2023-08-10 23:00:27.261  INFO     (FROM LOAD) Action force executed on anon with target (u'jiang', {u'flag': True})
+2023-08-10 23:00:27.262  INFO     (FROM LOAD) Action unforce executed on anon with target u'josie'
+2023-08-10 23:00:27.262  INFO     (FROM LOAD) Action exec executed on cassie with target <bound method Achievement.unlock of <store.Achievement object at 0xa7d11410>>
+2023-08-10 23:00:27.263  INFO     (FROM LOAD) Action unforce executed on anon with target u'jiang'
+2023-08-10 23:00:27.263  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 8)
+2023-08-10 23:00:27.264  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 5')
+2023-08-10 23:00:27.264  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 7)
+2023-08-10 23:00:27.265  INFO     (FROM LOAD) Action location executed on anon with target (u'josie', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:00:27.266  INFO     (FROM LOAD) Action force executed on anon with target (u'josie', {u'flag': True})
+2023-08-10 23:00:27.266  INFO     (FROM LOAD) Action unforce executed on anon with target u'josie'
+2023-08-10 23:00:27.267  INFO     (FROM LOAD) Action assign executed on anon with target (u'player', u'deliveries', 10)
+2023-08-10 23:00:27.268  INFO     (FROM LOAD) Action assign executed on anon with target (u'tony', u'cooldown', u'game.timer._game_day + 4')
+2023-08-10 23:00:27.268  INFO     (FROM LOAD) Action set executed on terry with target (u'sara', u'met')
+2023-08-10 23:00:27.297  INFO     Finished loading stored machine state. Loading took 3294.547 ms
+2023-08-10 23:00:27.311  INFO     Game Unpacked : False // CWD : /data/user/0/com.kompasproductions.summertimesaga/files
+2023-08-10 23:00:27.311  INFO     RETURN STACK INFO
+2023-08-10 23:00:27.311  INFO     [u'bedroom_dialogue', u'game_menu', u'poem', u'cellphone_exit']
+2023-08-10 23:00:30.488  INFO     MoveTo action called with destination town_map
+2023-08-10 23:00:32.047  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:00:34.639  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 23:03:11.617  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:03:14.512  INFO     Action location executed on anon with target (u'tina', {u'place': <store.Location 'Livingroom'>})
+2023-08-10 23:03:14.513  INFO     Action force executed on anon with target (u'tina', {u'flag': True})
+2023-08-10 23:03:14.513  INFO     Action unlocklocation executed on anon with target <store.Location 'Livingroom'>
+2023-08-10 23:03:15.283  INFO     MoveTo action called with destination apt_lobby
+2023-08-10 23:03:16.893  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:03:18.094  INFO     MoveTo action called with destination apt_hall3
+2023-08-10 23:03:20.003  INFO     MoveTo action called with destination maria_lounge
+2023-08-10 23:03:24.201  INFO     MoveTo action called with destination apt_other
+2023-08-10 23:03:27.867  INFO     MoveTo action called with destination apt_other
+2023-08-10 23:03:31.400  INFO     MoveTo action called with destination tina_lounge
+2023-08-10 23:14:41.405  INFO     Action location executed on anon with target (u'becca', {u'place': <store.Location 'Livingroom'>})
+2023-08-10 23:14:41.407  INFO     Action force executed on anon with target (u'becca', {u'flag': True})
+2023-08-10 23:14:41.408  INFO     Action clear executed on anon with target (u'player', u'is_virgin')
+2023-08-10 23:14:41.426  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:14:42.879  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:14:43.813  INFO     MoveTo action called with destination apt_lobby
+2023-08-10 23:14:44.687  INFO     MoveTo action called with destination apt
+2023-08-10 23:14:45.725  INFO     MoveTo action called with destination town_map
+2023-08-10 23:14:47.347  INFO     MoveTo action called with destination bedroom
+2023-08-10 23:14:49.584  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:14:49.585  INFO     Action priority executed on tina with target 1
+2023-08-10 23:14:49.587  INFO     Action priority executed on josie with target 2
+2023-08-10 23:14:49.587  INFO     Action unforce executed on anon with target u'becca'
+2023-08-10 23:14:49.588  INFO     Action unforce executed on anon with target u'tina'
+2023-08-10 23:14:49.589  INFO     Action location executed on anon with target (u'tony', {u'place': <store.Location 'Pizzeria Interior'>})
+2023-08-10 23:14:49.589  INFO     Action force executed on anon with target (u'tony', {u'flag': True})
+2023-08-10 23:14:49.590  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-10 23:14:49.591  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-10 23:14:49.592  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-10 23:14:49.593  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-10 23:14:49.595  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-10 23:14:49.596  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-10 23:14:49.609  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-10 23:14:49.610  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-10 23:14:49.611  INFO     Action set executed on player with target u'just wokeup'
+2023-08-10 23:14:49.612  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-10 23:14:49.612  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-10 23:14:49.613  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-10 23:14:49.613  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-10 23:14:49.613  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-10 23:14:49.614  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-10 23:14:49.614  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-10 23:14:49.615  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-10 23:14:49.616  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-10 23:14:49.616  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-10 23:14:49.618  INFO     Action clear executed on crystal with target u'mood'
+2023-08-10 23:14:49.618  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-10 23:14:49.619  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-10 23:16:10.539  INFO     MoveTo action called with destination town_map
+2023-08-10 23:16:11.953  INFO     MoveTo action called with destination dealership
+2023-08-10 23:16:13.074  INFO     MoveTo action called with destination dealership_showroom
+2023-08-10 23:16:18.049  INFO     Action location executed on josie with target (u'jiang', {u'place': <store.Location 'Dealership Garage'>})
+2023-08-10 23:16:18.050  INFO     Action location executed on josie with target (u'josie', {u'place': <store.Location 'Dealership Office'>})
+2023-08-10 23:16:18.051  INFO     Action location executed on josie with target (u'sato', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:16:18.051  INFO     Action force executed on josie with target (u'jiang', {u'flag': True})
+2023-08-10 23:16:18.052  INFO     Action force executed on josie with target (u'josie', {u'flag': True})
+2023-08-10 23:16:18.053  INFO     Action force executed on josie with target (u'sato', {u'flag': True})
+2023-08-10 23:16:18.053  INFO     Action condition executed on josie with target (u'M_kim.state is None', (u'location', (u'kim', {u'place': <store.Location 'Dealership Showroom'>}), u'force', (u'kim', {u'flag': True})), (u'location', (u'yoyo', {u'place': <store.Location 'Dealership Showroom'>}), u'force', (u'yoyo', {u'flag': True})))
+2023-08-10 23:16:18.055  INFO     Action location executed on josie with target (u'kim', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:16:18.056  INFO     Action force executed on josie with target (u'kim', {u'flag': True})
+2023-08-10 23:16:18.057  INFO     Action condition executed on josie with target (u'M_rump.state is None', (u'location', (u'rump', {u'place': <store.Location 'Dealership Showroom'>}), u'force', (u'rump', {u'flag': True})))
+2023-08-10 23:16:18.059  INFO     Action location executed on josie with target (u'rump', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:16:18.060  INFO     Action force executed on josie with target (u'rump', {u'flag': True})
+2023-08-10 23:16:19.269  INFO     TalkTo action called for character sato. Can talk : True
+2023-08-10 23:17:00.541  INFO     Action location executed on josie with target (u'sato', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:17:00.543  INFO     Action condition executed on josie with target (u'M_kim.state is None', (u'location', (u'kim', {u'place': <store.Location 'Dealership Garage'>})), (u'location', (u'yoyo', {u'place': <store.Location 'Dealership Lounge'>})))
+2023-08-10 23:17:00.543  INFO     Action location executed on josie with target (u'kim', {u'place': <store.Location 'Dealership Garage'>})
+2023-08-10 23:17:00.544  INFO     Action condition executed on josie with target (u'M_rump.state is None', (u'location', (u'rump', {u'place': <store.Location 'Dealership Garage'>})))
+2023-08-10 23:17:00.545  INFO     Action location executed on josie with target (u'rump', {u'place': <store.Location 'Dealership Garage'>})
+2023-08-10 23:17:02.039  INFO     MoveTo action called with destination dealership_office
+2023-08-10 23:17:03.162  INFO     TalkTo action called for character josie. Can talk : True
+2023-08-10 23:24:59.348  INFO     Action unforce executed on josie with target u'jiang'
+2023-08-10 23:24:59.349  INFO     Action unforce executed on josie with target u'josie'
+2023-08-10 23:24:59.350  INFO     Action unforce executed on josie with target u'sato'
+2023-08-10 23:24:59.350  INFO     Action condition executed on josie with target (u'M_kim.state is None', (u'unforce', u'kim'), (u'unforce', u'yoyo'))
+2023-08-10 23:24:59.351  INFO     Action unforce executed on josie with target u'kim'
+2023-08-10 23:24:59.352  INFO     Action condition executed on josie with target (u'M_rump.state is None', (u'unforce', u'rump'))
+2023-08-10 23:24:59.353  INFO     Action unforce executed on josie with target u'rump'
+2023-08-10 23:24:59.372  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:25:01.036  INFO     MoveTo action called with destination town_map
+2023-08-10 23:25:11.155  INFO     MoveTo action called with destination bedroom
+2023-08-10 23:25:22.689  INFO     MoveTo action called with destination town_map
+2023-08-10 23:25:24.247  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:25:25.069  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 23:28:35.901  INFO     Action unforce executed on anon with target u'tony'
+2023-08-10 23:28:37.188  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:28:38.269  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 23:28:39.109  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-10 23:28:40.088  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-10 23:28:51.637  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-10 23:28:53.322  INFO     ExitLocation action called with location pizzeria_kitchen. Can leave : True
+2023-08-10 23:28:54.422  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 23:28:55.890  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:29:03.733  INFO     MoveTo action called with destination town_map
+2023-08-10 23:29:04.447  INFO     MoveTo action called with destination bedroom
+2023-08-10 23:29:06.841  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:29:06.843  INFO     Action location executed on josie with target (u'josie', {u'place': <store.Location 'Dealership Showroom'>})
+2023-08-10 23:29:06.844  INFO     Action force executed on josie with target (u'josie', {u'flag': True})
+2023-08-10 23:29:06.846  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-10 23:29:06.846  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-10 23:29:06.847  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-10 23:29:06.847  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-10 23:29:06.848  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-10 23:29:06.848  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-10 23:29:06.849  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-10 23:29:06.850  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-10 23:29:06.850  INFO     Action set executed on player with target u'just wokeup'
+2023-08-10 23:29:06.851  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-10 23:29:06.851  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-10 23:29:06.852  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-10 23:29:06.853  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-10 23:29:06.853  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-10 23:29:06.854  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-10 23:29:06.854  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-10 23:29:06.856  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-10 23:29:06.857  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-10 23:29:06.857  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-10 23:29:06.859  INFO     Action clear executed on crystal with target u'mood'
+2023-08-10 23:29:06.859  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-10 23:29:06.860  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-10 23:29:19.550  INFO     MoveTo action called with destination hallway
+2023-08-10 23:29:20.302  INFO     MoveTo action called with destination entrance
+2023-08-10 23:29:22.303  INFO     MoveTo action called with destination kitchen
+2023-08-10 23:29:23.476  INFO     MoveTo action called with destination dining_room
+2023-08-10 23:29:24.730  INFO     MoveTo action called with destination kitchen
+2023-08-10 23:29:25.693  INFO     MoveTo action called with destination entrance
+2023-08-10 23:29:26.646  INFO     MoveTo action called with destination home_front
+2023-08-10 23:31:44.178  INFO     Action set executed on debbie with target u'panties available'
+2023-08-10 23:31:44.195  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:31:45.572  INFO     MoveTo action called with destination home_front
+2023-08-10 23:31:46.568  INFO     MoveTo action called with destination entrance
+2023-08-10 23:32:14.091  INFO     MoveTo action called with destination living_room
+2023-08-10 23:32:14.920  INFO     MoveTo action called with destination master_bedroom
+2023-08-10 23:34:21.595  INFO     Action clear executed on debbie with target u'panties available'
+2023-08-10 23:34:21.619  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:34:29.573  INFO     MoveTo action called with destination living_room
+2023-08-10 23:34:30.863  INFO     MoveTo action called with destination entrance
+2023-08-10 23:34:31.606  INFO     MoveTo action called with destination hallway
+2023-08-10 23:34:32.548  INFO     MoveTo action called with destination upstairs_bedroom
+2023-08-10 23:34:34.114  INFO     TalkTo action called for character jenny. Can talk : True
+2023-08-10 23:35:04.080  INFO     MoveTo action called with destination hallway
+2023-08-10 23:35:05.042  INFO     MoveTo action called with destination bedroom
+2023-08-10 23:36:35.415  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:36:35.419  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-10 23:36:35.419  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-10 23:36:35.420  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-10 23:36:35.420  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-10 23:36:35.421  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-10 23:36:35.421  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-10 23:36:35.422  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-10 23:36:35.422  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-10 23:36:35.423  INFO     Action set executed on player with target u'just wokeup'
+2023-08-10 23:36:35.423  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-10 23:36:35.425  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-10 23:36:35.425  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-10 23:36:35.425  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-10 23:36:35.426  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-10 23:36:35.426  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-10 23:36:35.427  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-10 23:36:35.428  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-10 23:36:35.428  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-10 23:36:35.429  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-10 23:36:35.429  INFO     Action clear executed on crystal with target u'mood'
+2023-08-10 23:36:35.430  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-10 23:36:35.430  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-10 23:36:42.059  INFO     MoveTo action called with destination hallway
+2023-08-10 23:36:42.885  INFO     MoveTo action called with destination entrance
+2023-08-10 23:36:43.676  INFO     MoveTo action called with destination kitchen
+2023-08-10 23:36:44.417  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-10 23:36:56.430  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:36:57.890  INFO     MoveTo action called with destination entrance
+2023-08-10 23:36:58.663  INFO     MoveTo action called with destination home_front
+2023-08-10 23:41:46.360  INFO     Action set executed on debbie with target u'shower random'
+2023-08-10 23:41:46.361  INFO     Action set executed on debbie with target u'shower sex available'
+2023-08-10 23:41:46.375  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:41:55.033  INFO     MoveTo action called with destination bedroom
+2023-08-10 23:42:00.667  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:42:00.671  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-10 23:42:00.672  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-10 23:42:00.673  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-10 23:42:00.673  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-10 23:42:00.674  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-10 23:42:00.674  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-10 23:42:00.674  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-10 23:42:00.675  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-10 23:42:00.675  INFO     Action set executed on player with target u'just wokeup'
+2023-08-10 23:42:00.676  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-10 23:42:00.676  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-10 23:42:00.677  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-10 23:42:00.677  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-10 23:42:00.678  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-10 23:42:00.678  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-10 23:42:00.679  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-10 23:42:00.680  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-10 23:42:00.680  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-10 23:42:00.681  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-10 23:42:00.682  INFO     Action clear executed on crystal with target u'mood'
+2023-08-10 23:42:00.682  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-10 23:42:00.683  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-10 23:42:11.694  INFO     MoveTo action called with destination hallway
+2023-08-10 23:42:12.450  INFO     MoveTo action called with destination entrance
+2023-08-10 23:42:13.362  INFO     MoveTo action called with destination kitchen
+2023-08-10 23:42:14.127  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-10 23:42:22.518  INFO     MoveTo action called with destination entrance
+2023-08-10 23:42:23.677  INFO     MoveTo action called with destination hallway
+2023-08-10 23:42:24.369  INFO     MoveTo action called with destination shower
+2023-08-10 23:42:30.957  INFO     MoveTo action called with destination entrance
+2023-08-10 23:42:31.965  INFO     MoveTo action called with destination home_front
+2023-08-10 23:42:33.133  INFO     MoveTo action called with destination town_map
+2023-08-10 23:42:39.401  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:43:02.859  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:43:03.975  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 23:43:08.503  INFO     MoveTo action called with destination town_map
+2023-08-10 23:43:12.813  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-10 23:43:13.848  INFO     MoveTo action called with destination dianes_garden
+2023-08-10 23:43:15.457  INFO     TalkTo action called for character diane. Can talk : True
+2023-08-10 23:43:21.615  INFO     MoveTo action called with destination dianes_garden
+2023-08-10 23:43:23.191  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-10 23:43:24.167  INFO     MoveTo action called with destination town_map
+2023-08-10 23:43:26.867  INFO     MoveTo action called with destination dealership
+2023-08-10 23:43:27.688  INFO     MoveTo action called with destination dealership_showroom
+2023-08-10 23:44:33.802  INFO     Action unforce executed on josie with target u'josie'
+2023-08-10 23:44:35.076  INFO     MoveTo action called with destination dealership_office
+2023-08-10 23:44:36.309  INFO     MoveTo action called with destination dealership_showroom
+2023-08-10 23:44:37.032  INFO     MoveTo action called with destination dealership_lounge
+2023-08-10 23:44:38.147  INFO     TalkTo action called for character josie. Can talk : True
+2023-08-10 23:46:26.172  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:46:27.955  INFO     MoveTo action called with destination dealership
+2023-08-10 23:46:28.980  INFO     MoveTo action called with destination town_map
+2023-08-10 23:46:39.245  INFO     MoveTo action called with destination hill
+2023-08-10 23:46:57.882  INFO     MoveTo action called with destination town_map
+2023-08-10 23:46:59.353  INFO     MoveTo action called with destination apt
+2023-08-10 23:47:00.229  INFO     MoveTo action called with destination apt_lobby
+2023-08-10 23:47:01.061  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:47:02.053  INFO     MoveTo action called with destination apt_hall3
+2023-08-10 23:47:02.907  INFO     MoveTo action called with destination tina_lounge
+2023-08-10 23:47:08.241  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:47:09.506  INFO     MoveTo action called with destination apt_lobby
+2023-08-10 23:47:10.250  INFO     MoveTo action called with destination apt
+2023-08-10 23:47:11.035  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:47:11.638  INFO     MoveTo action called with destination apt_lobby
+2023-08-10 23:47:12.325  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:47:13.057  INFO     MoveTo action called with destination apt_hall3
+2023-08-10 23:47:13.793  INFO     MoveTo action called with destination tina_lounge
+2023-08-10 23:47:56.709  INFO     Action location executed on maria with target {u'place': <store.Location 'Lobby'>}
+2023-08-10 23:47:56.710  INFO     Action force executed on maria with target {u'flag': True}
+2023-08-10 23:47:57.623  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:47:58.563  INFO     MoveTo action called with destination apt_lobby
+2023-08-10 23:48:38.616  INFO     Action priority executed on maria with target 3
+2023-08-10 23:48:38.617  INFO     Action location executed on maria with target {u'place': <store.Location 'Livingroom'>}
+2023-08-10 23:48:38.617  INFO     Action unlocklocation executed on maria with target <store.Location 'Livingroom'>
+2023-08-10 23:48:39.322  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:48:40.234  INFO     MoveTo action called with destination apt_hall3
+2023-08-10 23:48:41.297  INFO     MoveTo action called with destination maria_lounge
+2023-08-10 23:49:01.678  INFO     MoveTo action called with destination maria_bedroom
+2023-08-10 23:49:18.748  INFO     MoveTo action called with destination maria_lounge
+2023-08-10 23:49:19.916  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-10 23:49:32.666  INFO     MoveTo action called with destination apt_hall3
+2023-08-10 23:49:45.151  INFO     Action unforce executed on maria with target None
+2023-08-10 23:49:45.167  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:49:46.510  INFO     MoveTo action called with destination apt_lift
+2023-08-10 23:49:47.653  INFO     MoveTo action called with destination apt_lobby
+2023-08-10 23:49:48.423  INFO     MoveTo action called with destination apt
+2023-08-10 23:49:49.122  INFO     MoveTo action called with destination town_map
+2023-08-10 23:49:49.728  INFO     MoveTo action called with destination bedroom
+2023-08-10 23:49:52.059  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:49:52.062  INFO     Action setdefaultloc executed on tina with target [[<store.Location 'Manager's Office'>, <store.Location 'Manager's Office'>, <store.Location 'Livingroom'>, <store.Location 'NULL'>], [<store.Location 'NULL'>, <store.Location 'Manager's Office'>, <store.Location 'Livingroom'>, <store.Location 'NULL'>], [<store.Location 'Manager's Office'>, <store.Location 'Manager's Office'>, <store.Location 'Livingroom'>, <store.Location 'NULL'>], [<store.Location 'Manager's Office'>, <store.Location 'Manager's Office'>, <store.Location 'Livingroom'>, <store.Location 'NULL'>], [<store.Location 'Manager's Office'>, <store.Location 'Manager's Office'>, <store.Location 'Livingroom'>, <store.Location 'NULL'>], [<store.Location 'NULL'>, <store.Location 'NULL'>, <store.Location 'Livingroom'>, <store.Location 'NULL'>], [<store.Location 'Livingroom'>, <store.Location 'Livingroom'>, <store.Location 'Livingroom'>, <store.Location 'Livingroom'>]]
+2023-08-10 23:49:52.246  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-10 23:49:52.247  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-10 23:49:52.247  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-10 23:49:52.248  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-10 23:49:52.249  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-10 23:49:52.249  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-10 23:49:52.249  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-10 23:49:52.250  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-10 23:49:52.250  INFO     Action set executed on player with target u'just wokeup'
+2023-08-10 23:49:52.251  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-10 23:49:52.251  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-10 23:49:52.252  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-10 23:49:52.252  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-10 23:49:52.252  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-10 23:49:52.253  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-10 23:49:52.253  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-10 23:49:52.254  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-10 23:49:52.254  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-10 23:49:52.255  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-10 23:49:52.256  INFO     Action clear executed on crystal with target u'mood'
+2023-08-10 23:49:52.257  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-10 23:49:52.257  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-10 23:50:09.953  INFO     MoveTo action called with destination town_map
+2023-08-10 23:50:12.642  INFO     MoveTo action called with destination bank
+2023-08-10 23:50:13.519  INFO     MoveTo action called with destination bank_lobby
+2023-08-10 23:50:15.058  INFO     MoveTo action called with destination bank_hallway
+2023-08-10 23:50:19.677  INFO     TalkTo action called for character liu. Can talk : True
+2023-08-10 23:50:43.568  INFO     MoveTo action called with destination bank
+2023-08-10 23:50:44.232  INFO     MoveTo action called with destination town_map
+2023-08-10 23:50:45.766  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:50:46.644  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 23:56:09.044  INFO     Action location executed on anon with target (u'maria', {u'place': <store.Location 'Pizzeria Kitchen'>})
+2023-08-10 23:56:09.045  INFO     Action location executed on anon with target (u'tony', {u'place': [[<store.Location 'Pizzeria Storage'>, <store.Location 'Pizzeria Storage'>, <store.Location 'Pizzeria Interior'>, <store.Location 'Pizzeria Interior'>]]})
+2023-08-10 23:56:09.046  INFO     Action force executed on anon with target (u'maria', {u'flag': True})
+2023-08-10 23:56:09.046  INFO     Action force executed on anon with target (u'tony', {u'flag': True})
+2023-08-10 23:56:10.426  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:56:11.490  INFO     MoveTo action called with destination town_map
+2023-08-10 23:56:20.478  INFO     MoveTo action called with destination home_front
+2023-08-10 23:56:26.041  INFO     MoveTo action called with destination town_map
+2023-08-10 23:56:27.587  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-10 23:56:28.892  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:56:29.763  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:56:30.720  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-10 23:56:41.155  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-10 23:56:41.167  INFO     Action location executed on anon with target (u'maria', {u'place': <store.Location 'Pizzeria Storage'>})
+2023-08-10 23:56:41.168  INFO     Action location executed on anon with target (u'tony', {u'place': <store.Location 'NULL'>})
+2023-08-10 23:56:42.776  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-10 23:58:25.226  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-10 23:58:51.710  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:07:55.861  INFO     Action unforce executed on anon with target u'maria'
+2023-08-11 00:07:55.864  INFO     Action unforce executed on anon with target u'tony'
+2023-08-11 00:07:56.882  INFO     MoveTo action called with destination town_map
+2023-08-11 00:07:57.602  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:07:59.443  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:07:59.445  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:07:59.446  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:07:59.446  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:07:59.447  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:07:59.447  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:07:59.447  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:07:59.448  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:07:59.448  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:07:59.449  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:07:59.449  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:07:59.449  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:07:59.450  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:07:59.450  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:07:59.451  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:07:59.451  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:07:59.451  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:07:59.452  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:07:59.453  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:07:59.453  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:07:59.454  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:07:59.454  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:07:59.455  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:08:08.643  INFO     MoveTo action called with destination town_map
+2023-08-11 00:08:10.244  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:08:11.365  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:08:12.580  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:08:13.491  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:08:14.142  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:08:14.666  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:08:15.707  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:08:16.569  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-11 00:08:17.378  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:08:30.382  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:08:34.676  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:08:35.917  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-11 00:08:36.747  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:09:23.898  INFO     MoveTo action called with destination town_map
+2023-08-11 00:09:24.518  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:09:26.265  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:09:26.267  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:09:26.268  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:09:26.268  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:09:26.269  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:09:26.269  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:09:26.270  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:09:26.271  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:09:26.271  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:09:26.271  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:09:26.272  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:09:26.272  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:09:26.273  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:09:26.273  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:09:26.273  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:09:26.274  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:09:26.274  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:09:26.275  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:09:26.275  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:09:26.276  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:09:26.277  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:09:26.277  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:09:26.278  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:09:28.914  INFO     MoveTo action called with destination town_map
+2023-08-11 00:09:30.654  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:09:31.660  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:09:32.170  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:09:32.764  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:09:34.666  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:09:46.620  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:09:47.829  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:09:48.612  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-11 00:09:49.486  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:10:01.217  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:10:04.598  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:10:05.386  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-11 00:10:06.189  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:11:00.042  INFO     MoveTo action called with destination town_map
+2023-08-11 00:11:00.663  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:11:02.213  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:11:02.216  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:11:02.216  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:11:02.217  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:11:02.217  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:11:02.218  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:11:02.218  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:11:02.219  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:11:02.219  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:11:02.219  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:11:02.220  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:11:02.220  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:11:02.221  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:11:02.222  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:11:02.222  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:11:02.222  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:11:02.223  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:11:02.223  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:11:02.224  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:11:02.224  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:11:02.225  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:11:02.226  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:11:02.226  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:11:04.857  INFO     MoveTo action called with destination town_map
+2023-08-11 00:11:05.611  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:11:06.482  INFO     MoveTo action called with destination town_map
+2023-08-11 00:11:07.825  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:11:08.610  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:11:09.661  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:11:10.911  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:11:27.076  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:11:43.442  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:11:44.302  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:11:45.227  INFO     MoveTo action called with destination town_map
+2023-08-11 00:11:47.899  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:11:50.405  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:11:50.408  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:11:50.409  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:11:50.409  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:11:50.409  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:11:50.410  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:11:50.411  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:11:50.412  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:11:50.412  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:11:50.413  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:11:50.413  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:11:50.414  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:11:50.414  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:11:50.415  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:11:50.415  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:11:50.416  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:11:50.417  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:11:50.418  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:11:50.419  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:11:50.420  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:11:50.422  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:11:50.422  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:11:50.423  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:11:52.763  INFO     MoveTo action called with destination town_map
+2023-08-11 00:11:56.820  INFO     MoveTo action called with destination bank
+2023-08-11 00:11:57.564  INFO     MoveTo action called with destination bank_lobby
+2023-08-11 00:12:10.157  INFO     MoveTo action called with destination bank
+2023-08-11 00:12:18.891  INFO     MoveTo action called with destination town_map
+2023-08-11 00:12:38.020  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:12:39.098  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:12:56.118  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:13:11.319  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:13:12.174  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:13:12.993  INFO     MoveTo action called with destination town_map
+2023-08-11 00:13:14.218  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:13:15.223  INFO     MoveTo action called with destination town_map
+2023-08-11 00:13:16.537  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:13:17.268  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:13:18.296  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:13:21.900  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-11 00:13:22.848  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:13:32.188  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:13:35.991  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:13:37.583  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-11 00:13:38.724  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:14:17.465  INFO     MoveTo action called with destination town_map
+2023-08-11 00:14:18.237  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:14:20.660  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:14:20.663  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:14:20.664  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:14:20.664  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:14:20.664  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:14:20.665  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:14:20.665  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:14:20.666  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:14:20.666  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:14:20.667  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:14:20.667  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:14:20.668  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:14:20.668  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:14:20.668  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:14:20.669  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:14:20.669  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:14:20.669  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:14:20.670  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:14:20.671  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:14:20.671  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:14:20.672  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:14:20.673  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:14:20.673  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:14:34.868  INFO     MoveTo action called with destination town_map
+2023-08-11 00:14:37.071  INFO     MoveTo action called with destination bank
+2023-08-11 00:14:37.877  INFO     MoveTo action called with destination bank_lobby
+2023-08-11 00:14:48.773  INFO     TalkTo action called for character liu. Can talk : True
+2023-08-11 00:15:04.058  INFO     MoveTo action called with destination bank
+2023-08-11 00:15:05.028  INFO     MoveTo action called with destination town_map
+2023-08-11 00:15:06.541  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:15:07.352  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:15:18.482  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:15:19.393  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:15:46.275  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:15:57.312  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:16:00.649  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:16:01.792  INFO     MoveTo action called with destination town_map
+2023-08-11 00:16:07.878  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:16:08.559  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:16:09.461  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:16:10.382  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:16:11.294  INFO     MoveTo action called with destination pizzeria_kitchen
+2023-08-11 00:16:12.115  INFO     MoveTo action called with destination pizzeria_storage
+2023-08-11 00:16:13.381  INFO     ExitLocation action called with location pizzeria_kitchen. Can leave : True
+2023-08-11 00:16:14.827  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:16:15.591  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:16:19.867  INFO     MoveTo action called with destination town_map
+2023-08-11 00:16:21.484  INFO     MoveTo action called with destination apt
+2023-08-11 00:16:22.300  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:16:23.147  INFO     MoveTo action called with destination apt_hall1
+2023-08-11 00:16:24.266  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:16:24.957  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:16:25.860  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:16:27.032  INFO     MoveTo action called with destination tina_lounge
+2023-08-11 00:16:38.672  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:16:41.967  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:16:43.028  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:16:48.283  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:17:29.769  INFO     MoveTo action called with destination maria_bedroom
+2023-08-11 00:17:30.571  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:18:21.348  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:18:21.812  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:18:23.712  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:18:26.481  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:18:27.258  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:18:28.099  INFO     MoveTo action called with destination apt
+2023-08-11 00:18:28.672  INFO     MoveTo action called with destination town_map
+2023-08-11 00:18:29.190  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:18:30.957  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:18:30.960  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:18:30.961  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:18:30.962  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:18:30.963  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:18:30.964  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:18:30.965  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:18:30.965  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:18:30.966  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:18:30.966  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:18:30.967  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:18:30.967  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:18:30.968  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:18:30.968  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:18:30.969  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:18:30.969  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:18:30.970  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:18:30.970  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:18:30.971  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:18:30.971  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:18:30.972  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:18:30.972  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:18:30.973  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:18:34.227  INFO     MoveTo action called with destination town_map
+2023-08-11 00:18:35.866  INFO     MoveTo action called with destination apt
+2023-08-11 00:18:36.557  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:18:37.294  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:18:37.997  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:18:38.865  INFO     MoveTo action called with destination tina_lounge
+2023-08-11 00:18:51.276  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:18:52.396  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:18:53.619  INFO     MoveTo action called with destination apt
+2023-08-11 00:18:54.583  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:18:55.291  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:18:56.251  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:18:57.126  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:19:01.334  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:19:02.486  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:19:03.512  INFO     MoveTo action called with destination apt
+2023-08-11 00:19:04.391  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:19:05.039  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:19:05.695  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:19:06.396  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:19:07.087  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:19:12.980  INFO     TalkTo action called for character tony. Can talk : True
+2023-08-11 00:19:28.926  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:19:58.030  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:19:59.261  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:20:00.629  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:20:01.363  INFO     MoveTo action called with destination apt
+2023-08-11 00:20:02.827  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:20:03.423  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:20:04.111  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:20:04.789  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:20:05.500  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:20:08.339  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:20:27.303  INFO     MoveTo action called with destination apt_hall3
+2023-08-11 00:20:31.207  INFO     MoveTo action called with destination maria_bedroom
+2023-08-11 00:20:32.216  INFO     TalkTo action called for character maria. Can talk : True
+2023-08-11 00:21:01.510  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:21:01.807  INFO     MoveTo action called with destination maria_lounge
+2023-08-11 00:21:04.275  INFO     MoveTo action called with destination apt_lift
+2023-08-11 00:21:05.181  INFO     MoveTo action called with destination apt_lobby
+2023-08-11 00:21:05.981  INFO     MoveTo action called with destination apt
+2023-08-11 00:21:07.275  INFO     MoveTo action called with destination town_map
+2023-08-11 00:21:07.999  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:21:09.638  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:21:09.640  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:21:09.641  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:21:09.642  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:21:09.642  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:21:09.643  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:21:09.643  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:21:09.644  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:21:09.644  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:21:09.645  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:21:09.645  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:21:09.646  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:21:09.646  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:21:09.646  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:21:09.647  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:21:09.648  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:21:09.648  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:21:09.649  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:21:09.650  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:21:09.650  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:21:09.651  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:21:09.652  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:21:09.653  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:21:18.958  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:21:18.961  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:21:18.961  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:21:18.962  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:21:18.963  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:21:18.963  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:21:18.963  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:21:18.964  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:21:18.964  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:21:18.965  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:21:18.965  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:21:18.966  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:21:18.966  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:21:18.967  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:21:18.967  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:21:18.967  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:21:18.968  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:21:18.968  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:21:18.969  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:21:18.969  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:21:18.970  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:21:18.971  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:21:18.971  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:21:22.369  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:21:22.372  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:21:22.372  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:21:22.373  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:21:22.373  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:21:22.374  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:21:22.374  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:21:22.375  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:21:22.375  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:21:22.376  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:21:22.376  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:21:22.377  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:21:22.378  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:21:22.378  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:21:22.378  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:21:22.379  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:21:22.379  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:21:22.380  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:21:22.380  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:21:22.381  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:21:22.382  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:21:22.382  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:21:22.383  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:21:25.683  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:21:25.686  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:21:25.686  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:21:25.687  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:21:25.687  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:21:25.688  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:21:25.688  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:21:25.688  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:21:25.689  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:21:25.689  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:21:25.689  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:21:25.690  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:21:25.690  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:21:25.691  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:21:25.691  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:21:25.692  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:21:25.692  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:21:25.693  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:21:25.693  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:21:25.694  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:21:25.695  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:21:25.695  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:21:25.696  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:21:28.904  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:21:28.907  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:21:28.908  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:21:28.908  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:21:28.908  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:21:28.909  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:21:28.909  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:21:28.910  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:21:28.910  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:21:28.911  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:21:28.911  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:21:28.911  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:21:28.912  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:21:28.912  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:21:28.913  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:21:28.913  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:21:28.913  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:21:28.914  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:21:28.915  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:21:28.915  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:21:28.916  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:21:28.916  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:21:28.917  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:21:28.931  INFO     Action trigger executed on maria with target T_ano11_done
+2023-08-11 00:21:28.934  INFO     Action location executed on anon with target (u'tony', {u'place': <store.Location 'Pizzeria Interior'>})
+2023-08-11 00:21:28.934  INFO     Action force executed on anon with target (u'tony', {u'flag': True})
+2023-08-11 00:22:00.624  INFO     MoveTo action called with destination town_map
+2023-08-11 00:22:01.896  INFO     MoveTo action called with destination pizzeria_exterior
+2023-08-11 00:22:26.958  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:25:06.911  INFO     Action unforce executed on anon with target u'tony'
+2023-08-11 00:25:06.912  INFO     Action condition executed on anon with target (u'player.has_item("binoculars")', (u'trigger', T_ano12_zoom))
+2023-08-11 00:25:07.911  INFO     MoveTo action called with destination pizzeria_interior
+2023-08-11 00:25:15.528  INFO     MoveTo action called with destination town_map
+2023-08-11 00:25:28.976  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:25:36.427  INFO     MoveTo action called with destination town_map
+2023-08-11 00:25:37.423  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:25:38.151  INFO     MoveTo action called with destination hallway
+2023-08-11 00:25:39.797  INFO     MoveTo action called with destination entrance
+2023-08-11 00:25:40.591  INFO     MoveTo action called with destination kitchen
+2023-08-11 00:25:41.353  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:26:07.540  INFO     MoveTo action called with destination entrance
+2023-08-11 00:26:08.464  INFO     MoveTo action called with destination living_room
+2023-08-11 00:26:09.399  INFO     MoveTo action called with destination master_bedroom
+2023-08-11 00:26:13.740  INFO     MoveTo action called with destination living_room
+2023-08-11 00:26:14.866  INFO     MoveTo action called with destination entrance
+2023-08-11 00:26:15.604  INFO     MoveTo action called with destination kitchen
+2023-08-11 00:26:17.405  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:26:41.758  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:26:43.254  INFO     MoveTo action called with destination living_room
+2023-08-11 00:26:44.807  INFO     MoveTo action called with destination basement
+2023-08-11 00:26:45.548  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:26:52.698  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:26:57.422  INFO     MoveTo action called with destination living_room
+2023-08-11 00:26:59.411  INFO     MoveTo action called with destination master_bedroom
+2023-08-11 00:27:04.368  INFO     MoveTo action called with destination living_room
+2023-08-11 00:27:06.005  INFO     MoveTo action called with destination entrance
+2023-08-11 00:27:07.023  INFO     MoveTo action called with destination kitchen
+2023-08-11 00:27:07.946  INFO     MoveTo action called with destination entrance
+2023-08-11 00:27:08.474  INFO     MoveTo action called with destination hallway
+2023-08-11 00:27:09.686  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:27:11.719  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:27:12.450  INFO     MoveTo action called with destination hallway
+2023-08-11 00:27:55.333  INFO     Action set executed on debbie with target u'sleep together'
+2023-08-11 00:27:55.953  INFO     MoveTo action called with destination entrance
+2023-08-11 00:27:56.683  INFO     MoveTo action called with destination home_front
+2023-08-11 00:27:57.584  INFO     MoveTo action called with destination entrance
+2023-08-11 00:27:58.606  INFO     MoveTo action called with destination living_room
+2023-08-11 00:27:59.776  INFO     MoveTo action called with destination master_bedroom
+2023-08-11 00:28:14.351  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:28:58.887  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:28:58.888  INFO     Action clear executed on debbie with target (u'player', u'is_virgin')
+2023-08-11 00:28:58.891  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:28:58.892  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:28:58.892  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:28:58.893  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:28:58.894  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:28:58.894  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:28:58.895  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:28:58.895  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:28:58.896  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:28:58.896  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:28:58.897  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:28:58.898  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:28:58.898  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:28:58.899  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:28:58.899  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:28:58.900  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:28:58.901  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:28:58.902  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:28:58.903  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:28:58.905  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:28:58.906  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:28:58.907  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:29:34.119  INFO     MoveTo action called with destination entrance
+2023-08-11 00:29:35.535  INFO     MoveTo action called with destination kitchen
+2023-08-11 00:29:36.679  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:30:05.298  INFO     MoveTo action called with destination entrance
+2023-08-11 00:30:06.363  INFO     MoveTo action called with destination hallway
+2023-08-11 00:30:07.938  INFO     MoveTo action called with destination shower
+2023-08-11 00:30:14.519  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:30:17.416  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:30:17.995  INFO     MoveTo action called with destination hallway
+2023-08-11 00:30:18.532  INFO     MoveTo action called with destination entrance
+2023-08-11 00:30:19.618  INFO     MoveTo action called with destination living_room
+2023-08-11 00:30:20.342  INFO     MoveTo action called with destination basement
+2023-08-11 00:30:21.253  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:30:27.312  INFO     MoveTo action called with destination living_room
+2023-08-11 00:30:28.130  INFO     MoveTo action called with destination master_bedroom
+2023-08-11 00:30:32.819  INFO     MoveTo action called with destination living_room
+2023-08-11 00:30:33.991  INFO     MoveTo action called with destination basement
+2023-08-11 00:30:34.661  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:30:49.795  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:30:51.341  INFO     MoveTo action called with destination master_bedroom
+2023-08-11 00:30:59.896  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:31:02.515  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:31:02.519  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:31:02.519  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:31:02.520  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:31:02.520  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:31:02.521  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:31:02.522  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:31:02.522  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:31:02.523  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:31:02.524  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:31:02.524  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:31:02.525  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:31:02.526  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:31:02.526  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:31:02.527  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:31:02.528  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:31:02.528  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:31:02.529  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:31:02.530  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:31:02.531  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:31:02.532  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:31:02.532  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:31:02.533  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:31:15.811  INFO     MoveTo action called with destination living_room
+2023-08-11 00:31:16.905  INFO     MoveTo action called with destination entrance
+2023-08-11 00:31:17.710  INFO     MoveTo action called with destination kitchen
+2023-08-11 00:31:18.974  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:31:27.105  INFO     MoveTo action called with destination entrance
+2023-08-11 00:31:28.072  INFO     MoveTo action called with destination hallway
+2023-08-11 00:31:28.899  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:31:32.291  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:31:32.294  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:31:32.295  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:31:32.296  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:31:32.296  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:31:32.297  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:31:32.297  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:31:32.298  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:31:32.298  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:31:32.299  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:31:32.299  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:31:32.300  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:31:32.300  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:31:32.300  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:31:32.301  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:31:32.301  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:31:32.302  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:31:32.303  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:31:32.304  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:31:32.305  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:31:32.305  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:31:32.306  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:31:32.306  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:31:36.415  INFO     MoveTo action called with destination hallway
+2023-08-11 00:31:37.287  INFO     MoveTo action called with destination shower
+2023-08-11 00:31:44.282  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:31:49.571  INFO     MoveTo action called with destination hallway
+2023-08-11 00:31:50.876  INFO     MoveTo action called with destination entrance
+2023-08-11 00:31:52.341  INFO     MoveTo action called with destination home_front
+2023-08-11 00:31:53.548  INFO     MoveTo action called with destination garage
+2023-08-11 00:32:00.077  INFO     MoveTo action called with destination home_front
+2023-08-11 00:32:10.146  INFO     MoveTo action called with destination town_map
+2023-08-11 00:32:50.909  INFO     MoveTo action called with destination school_frontyard
+2023-08-11 00:32:51.617  INFO     MoveTo action called with destination school_hall
+2023-08-11 00:33:43.328  INFO     Action assign executed on roxxy with target (u'roxxy relationship', 1)
+2023-08-11 00:33:45.897  INFO     MoveTo action called with destination french_classroom
+2023-08-11 00:33:57.675  INFO     MoveTo action called with destination school_frontyard
+2023-08-11 00:33:58.932  INFO     MoveTo action called with destination town_map
+2023-08-11 00:34:04.762  INFO     MoveTo action called with destination treehouse
+2023-08-11 00:34:06.977  INFO     MoveTo action called with destination treehouse_ladder
+2023-08-11 00:34:09.005  INFO     MoveTo action called with destination treehouse_interior
+2023-08-11 00:34:21.697  INFO     MoveTo action called with destination treehouse_ladder
+2023-08-11 00:34:22.427  INFO     MoveTo action called with destination treehouse
+2023-08-11 00:34:23.756  INFO     MoveTo action called with destination town_map
+2023-08-11 00:34:25.401  INFO     MoveTo action called with destination pier
+2023-08-11 00:34:35.401  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:34:38.554  INFO     MoveTo action called with destination town_map
+2023-08-11 00:34:41.105  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-11 00:34:41.817  INFO     MoveTo action called with destination dianes_garden
+2023-08-11 00:34:43.995  INFO     TalkTo action called for character diane. Can talk : True
+2023-08-11 00:34:47.757  INFO     MoveTo action called with destination dianes_garden
+2023-08-11 00:34:54.765  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-11 00:34:57.343  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:34:58.150  INFO     MoveTo action called with destination dianes_lobby
+2023-08-11 00:35:00.258  INFO     MoveTo action called with destination dianes_garden
+2023-08-11 00:35:02.880  INFO     MoveTo action called with destination dianes_garden
+2023-08-11 00:35:03.999  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-11 00:35:06.003  INFO     MoveTo action called with destination town_map
+2023-08-11 00:35:11.040  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:35:13.531  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:35:13.533  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:35:13.534  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:35:13.534  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:35:13.535  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:35:13.536  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:35:13.536  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:35:13.537  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:35:13.537  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:35:13.537  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:35:13.538  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:35:13.538  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:35:13.539  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:35:13.539  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:35:13.539  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:35:13.540  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:35:13.540  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:35:13.541  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:35:13.541  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:35:13.542  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:35:13.543  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:35:13.543  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:35:13.544  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:35:22.893  INFO     MoveTo action called with destination town_map
+2023-08-11 00:35:24.964  INFO     MoveTo action called with destination pier
+2023-08-11 00:35:42.836  INFO     MoveTo action called with destination town_map
+2023-08-11 00:35:50.100  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-11 00:36:06.427  INFO     MoveTo action called with destination library_front
+2023-08-11 00:36:08.102  INFO     MoveTo action called with destination town_map
+2023-08-11 00:36:16.976  INFO     MoveTo action called with destination home_front
+2023-08-11 00:36:17.647  INFO     MoveTo action called with destination entrance
+2023-08-11 00:36:18.631  INFO     MoveTo action called with destination kitchen
+2023-08-11 00:41:56.628  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:41:58.226  INFO     MoveTo action called with destination hallway
+2023-08-11 00:41:59.675  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:42:04.260  INFO     Action exec executed on odette with target <function ode02_hint at 0x9f381cf0>
+2023-08-11 00:42:04.264  INFO     Action clear executed on debbie with target u'room sneak'
+2023-08-11 00:42:04.265  INFO     Action clear executed on debbie with target u'movie night'
+2023-08-11 00:42:04.265  INFO     Action assign executed on debbie with target [u'location random', u"random.choice(('bedroom', 'kitchen', 'basement'))"]
+2023-08-11 00:42:04.266  INFO     Action assign executed on debbie with target [u'time random', u'random.choice((0, 1))']
+2023-08-11 00:42:04.267  INFO     Action clear executed on diane with target u'refused 3way'
+2023-08-11 00:42:04.267  INFO     Action assign executed on diane with target [u'random drink', u"random.choice(['Martini', 'Pi\xf1a Colada', 'Margarita'])"]
+2023-08-11 00:42:04.268  INFO     Action clear executed on player with target u'took pregnax'
+2023-08-11 00:42:04.268  INFO     Action clear executed on player with target u'masturbated tv'
+2023-08-11 00:42:04.269  INFO     Action set executed on player with target u'just wokeup'
+2023-08-11 00:42:04.269  INFO     Action assign executed on erik with target (u'in_flagrante', False)
+2023-08-11 00:42:04.270  INFO     Action assign executed on jenny with target (u'forced_sneak_in_chance', 0)
+2023-08-11 00:42:04.270  INFO     Action assign executed on jenny with target (u'had_couch_sex', False)
+2023-08-11 00:42:04.270  INFO     Action assign executed on jenny with target (u'force_couch_sex', False)
+2023-08-11 00:42:04.271  INFO     Action assign executed on jenny with target (u'preg_afterglow', False)
+2023-08-11 00:42:04.271  INFO     Action assign executed on jenny with target (u'girlfriend_in_progress', False)
+2023-08-11 00:42:04.271  INFO     Action assign executed on jenny with target (u'peephole', False)
+2023-08-11 00:42:04.273  INFO     Action assign executed on consuela with target (u'doing_anal', False)
+2023-08-11 00:42:04.274  INFO     Action assign executed on june with target (u'hang_time', False)
+2023-08-11 00:42:04.274  INFO     Action assign executed on rump with target (u'rump_n_cunt', u'rump_wc_scene()')
+2023-08-11 00:42:04.275  INFO     Action clear executed on crystal with target u'mood'
+2023-08-11 00:42:04.275  INFO     Action clear executed on roxxy with target u'massage'
+2023-08-11 00:42:04.276  INFO     Action clear executed on roxxy with target u'meet for locker sex'
+2023-08-11 00:42:22.071  INFO     MoveTo action called with destination town_map
+2023-08-11 00:42:36.281  INFO     MoveTo action called with destination home_front
+2023-08-11 00:42:36.946  INFO     MoveTo action called with destination entrance
+2023-08-11 00:42:37.902  INFO     MoveTo action called with destination kitchen
+2023-08-11 00:42:39.028  INFO     TalkTo action called for character debbie. Can talk : True
+2023-08-11 00:42:43.772  INFO     MoveTo action called with destination entrance
+2023-08-11 00:42:44.711  INFO     MoveTo action called with destination home_front
+2023-08-11 00:42:45.725  INFO     MoveTo action called with destination town_map
+2023-08-11 00:42:54.635  INFO     MoveTo action called with destination annies_house_front
+2023-08-11 00:42:55.756  INFO     TalkTo action called for character richard. Can talk : True
+2023-08-11 00:43:20.769  INFO     MoveTo action called with destination annies_house_daycare
+2023-08-11 00:43:22.203  INFO     TalkTo action called for character lucy. Can talk : True
+2023-08-11 00:43:41.065  INFO     MoveTo action called with destination annies_house_front
+2023-08-11 00:43:42.310  INFO     MoveTo action called with destination town_map
+2023-08-11 00:44:08.509  INFO     MoveTo action called with destination mall_parking_lot
+2023-08-11 00:44:09.431  INFO     MoveTo action called with destination mall
+2023-08-11 00:44:10.224  INFO     MoveTo action called with destination consumr
+2023-08-11 00:44:20.456  INFO     MoveTo action called with destination mall
+2023-08-11 00:44:21.369  INFO     ExitLocation action called with location mall_parking_lot. Can leave : True
+2023-08-11 00:44:23.564  INFO     MoveTo action called with destination town_map
+2023-08-11 00:44:27.728  INFO     MoveTo action called with destination annies_house_front
+2023-08-11 00:44:29.608  INFO     MoveTo action called with destination annies_house_livingroom
+2023-08-11 00:44:31.151  INFO     MoveTo action called with destination annies_house_front
+2023-08-11 00:44:32.239  INFO     TalkTo action called for character richard. Can talk : True
+2023-08-11 00:44:41.276  INFO     MoveTo action called with destination town_map
+2023-08-11 00:44:41.954  INFO     MoveTo action called with destination bedroom
+2023-08-11 00:44:42.874  INFO     MoveTo action called with destination town_map
+2023-08-11 00:44:44.933  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-11 00:44:45.689  INFO     MoveTo action called with destination dianes_garden
+2023-08-11 00:45:36.933  INFO     Action location executed on diane with target [u'richard', {u'place': <store.Location 'Diane's Front Yard'>}]
+2023-08-11 00:45:36.934  INFO     Action force executed on diane with target [u'richard', {u'tod': [0, 1]}]
+2023-08-11 00:45:37.757  INFO     MoveTo action called with destination dianes_front_yard
+2023-08-11 00:45:38.476  INFO     MoveTo action called with destination town_map
+2023-08-11 00:45:39.917  INFO     MoveTo action called with destination annies_house_front
